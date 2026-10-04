@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import Article from '../layouts/Article.astro';
+
+const allArticles = await getCollection('articles');
+
+// Skip anything still marked DRAFT so unfinished work doesn't show on the live site.
+const published = allArticles.filter((a) => !a.data.status?.toUpperCase().includes('DRAFT'));
+
+// Group by seriesSlug. Articles without a seriesSlug land in "Standalone".
+type Entry = (typeof published)[number];
+const groups = new Map<string, { label: string; entries: Entry[] }>();
+
+for (const entry of published) {
+  const key = entry.data.seriesSlug ?? '__standalone__';
+  const label = entry.data.seriesSlug ? (entry.data.series ?? entry.data.seriesSlug) : 'Standalone';
+  if (!groups.has(key)) groups.set(key, { label, entries: [] });
+  groups.get(key)!.entries.push(entry);
+}
+
+// Sort each group's entries by seriesOrder (undefined sorts last), then title.
+for (const group of groups.values()) {
+  group.entries.sort((a, b) => {
+    const ao = a.data.seriesOrder ?? Infinity;
+    const bo = b.data.seriesOrder ?? Infinity;
+    if (ao !== bo) return ao - bo;
+    return a.data.title.localeCompare(b.data.title);
+  });
+}
+
+// Standalone group last, series groups alphabetically by label before it.
+const sortedGroups = [...groups.entries()].sort(([keyA, a], [keyB, b]) => {
+  if (keyA === '__standalone__') return 1;
+  if (keyB === '__standalone__') return -1;
+  return a.label.localeCompare(b.label);
+});
+---
+<Article title="Unshakable">
+  <h1>Unshakable</h1>
+  <p class="tagline">Faith examined is faith worth keeping.</p>
+
+  {sortedGroups.map(([, group]) => (
+    <section class="series-group">
+      <h2>{group.label}</h2>
+      <ul>
+        {group.entries.map((a) => (
+          <li>
+            <a href={`/articles/${a.id}/`}>{a.data.title}</a>
+            {a.data.subtitle && <> — {a.data.subtitle}</>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Article>
+
+<style>
+  .tagline {
+    font-family: system-ui, sans-serif;
+    color: var(--muted);
+    margin-top: -0.25rem;
+  }
+  .series-group {
+    margin-top: 2.5rem;
+  }
+  .series-group h2 {
+    font-size: 1.3rem;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.4rem;
+  }
+  .series-group ul {
+    padding-left: 1.2rem;
+  }
+  .series-group li {
+    margin: 0.4rem 0;
+  }
+</style>
