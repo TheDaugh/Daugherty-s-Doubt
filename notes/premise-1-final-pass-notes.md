@@ -8,7 +8,7 @@ Not published on the site. Read before merging.
 - The Craig 2009 line did not match the Works cited entry (a podcast with Kevin Harris, not a debate with Morriston). Reworded to "Elsewhere he puts it this way."
 - "Albert, an atheist": unverified, so "atheist" was dropped.
 - † (unverified citations) stays only in Works cited, with a one-line note. Citation checks are still yours.
-- Brand "Unshakable" and byline "Ian Daugherty" are assumptions taken from the repo.
+- Site name "Daugherty's Doubt" and byline "Ian Daugherty" are assumptions taken from the repo.
 
 ## Site changes
 - New design, series pages, glossary tooltips (`[[Display|key]]`), per-article glossary, 404, about page, netlify.toml.
