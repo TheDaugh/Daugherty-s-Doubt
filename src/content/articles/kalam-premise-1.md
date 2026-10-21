@@ -4,199 +4,308 @@ subtitle: "The Kalam Cosmological Argument, Premise 1"
 series: "The Kalam (1 of 4)"
 seriesSlug: kalam
 seriesOrder: 1
+part: 1
 tier: hub
-status: DRAFT v3 — voice pass done; not for publication until Ian's theological read and citation checks
+glossaryExtra: ["efficient cause", "material cause", "ex nihilo nihil fit", "creatio ex nihilo", "psr", "brute fact", "metaphysical possibility", "folk theory", "reify", "defeasible reasoning", "verification principle", "normalizable"]
 ---
 
 # Whatever Begins to Exist Has a Cause or Explanation
 
-*Is the first line of the kalam argument as obvious as it sounds — and if it is, why have so many careful people denied it?*
+*Is the first line of the kalam argument as obvious as it sounds?*
 
 > **The argument in brief.** The kalam cosmological argument runs in three lines:
 > 1. Whatever begins to exist has a cause or explanation for its existence.
 > 2. The universe began to exist.
 > 3. Therefore, the universe has a cause or explanation for its existence.
 >
-> The argument is valid: if both premises are true, the conclusion follows. Every serious dispute is therefore a dispute about a premise, and this article takes up the first. Premise 2 has two companion articles, one philosophical ([Can the Past Be Infinite?](#)) and one scientific ([What Cosmology Does and Doesn't Show](#)), and a fourth asks what kind of cause the conclusion delivers ([Who Made God?](#)).
+> The argument is valid: if both premises are true, the conclusion follows. Every serious dispute is therefore a dispute about a premise, and this article surveys the first. Premise 2 has two companion articles, one philosophical ([Can the Past Be Infinite?](/articles/kalam-premise-2-philosophical/)) and one scientific ([What Cosmology Does and Doesn't Show](/articles/kalam-premise-2-scientific/)). A fourth asks what kind of cause the conclusion delivers ([Who Made God?](/articles/kalam-conclusion/)). The objections surveyed below are argued out, reply by reply, in [Premise 1: The Debate](/articles/kalam-premise-1-debate/), which assumes everything here.
 
 ---
 
 ## The two-sentence problem
 
-A folding table outside a student union, a laminated card, three lines of text. A sophomore reads the first line and shrugs; of course things have causes. He reads the second and shrugs again, because he has heard of the Big Bang. Then he reads the third, and his face changes. He has just agreed to two premises that together say the universe has a cause, and he did it in less time than it takes to order a coffee.
+No method in apologetic ministry is more economical than the kalam cosmological argument. Of course whatever begins has a cause. The universe began, and belief in the Big Bang, in the finite past of the universe, is something of a cultural litmus test. That is the whole argument: a sucker punch of philosophy wrapped in common sense and analogy, ending in a peculiarly God-like cause. It takes less time to explain than the attention span of a goldfish, or of a moderately attentive adult.
 
-No argument for God travels as well as this one. The same three lines have held their ground for more than forty years in university debate halls, against professional philosophers who would like nothing better than to watch them fall, and William Lane Craig has carried them onto more stages than any theist alive. People who had filed God somewhere near astrology meet the kalam and find themselves, for the first time, obliged to argue back.
+The brevity is the argument's strength. When William Lane Craig revived it in 1979, a short proof of the traditional God was not what philosophers expected to see. Secular academics did not expect an argument for God built from the findings of modern science, let alone one that matched what laypeople had been saying all along. Enlightened people want beliefs that reflect their purely humanistic sophistication. If God's existence becomes a point of serious debate, it would dangerously inject cortisol-laced dissonance into a world still crawling out from under the thumb of divine authority. Maybe God could still become a pop-science topic if He can no longer be relegated to a thought experiment.
 
-Then the sophomore's gut speaks up. *It can't be that easy.* Two sentences cannot settle the oldest question there is, so somewhere in the machine a trick is being played, and the natural place to look for it is the first line — because the first line sounds too obvious to be interesting, and obvious things are where tricks hide. Things inside the universe have causes, fine. The kettle boils because someone lit the stove. But why should a rule learned from kettles apply to the universe itself?
+Defensive skeptics do not move easily from "safe to forget about God" to potential seeker, and they afford the argument no more than a bracketing for the sake of criticism. It is the philosophical equivalent of designating oneself all-time defense. *It can't be that easy* becomes *It won't be that easy.* Two sentences will not settle the most consequential question there ever was.
 
-That question deserves better than a shrug from either side of the table. Premise 1 is not a trick. Neither is it as simple as the card makes it look. Underneath it sit old and unsettled disputes about causation, explanation, and nothingness, and a Christian who uses the argument ought to know where the ground is rock and where it is packed dirt.
+The contemporary kalam has been mainstream for a long time, so the skeptic has likely heard rebuttals just as short and pithy, and exchanges often end in "yes, but"s or blank stares. Some people answer a simple argument with an uninterested objection, some with a hard, honest question, and some with an expression encouraging a subject change. The argument cannot tell which it is getting. Neither can we as separate, incorrigible minds.
 
-The second reason for care belongs to the believer, not the skeptic. An argument this persuasive is easy to lean on. Scripture calls creation as a witness — "the heavens declare the glory of God" (Ps 19:1) — but it never makes a syllogism the foundation of faith. The kalam can clear ground and point to a Creator. It cannot name the Father of our Lord Jesus Christ. A Christian who forgets the difference will eventually be embarrassed by it, and worse, will have taught the person across the table to expect from philosophy what philosophy was never built to give.
+Why do erudite, commonsensical people not adopt the kalam? Some adopt beliefs that let others see their sophistication. Others prefer to keep God a thought experiment, since a God no one can state or comprehend, or one that is a spirit manifesting utopian anthropology, is easier to stomach. Modern religious thought had only just grown comfortable with Hegel's Geist, the Absolute Spirit, who needs the world in order to find out who he is, and with Schleiermacher's "God" as a feeling of absolute dependence. Gods like these leave us perplexed and fuzzy inside. Arguments for them cannot be written on an index card in barely legible boyish handwriting, or understood by one mind, or worshipped for that matter. A God who demands worship, and for whom an argument fits on one card, is suspect for exactly those reasons.
+
+That raises two questions abstract argumentation cannot answer. What does a Christian do when analogy, expert testimony, and common sense have all failed to move someone? And what is the value of investing more, when the short presentation already works on open seekers? You can find more in my first article, [Six Ways Christians Defend the Faith](/articles/apologetic-methods/), which places the kalam among the arguments that appeal to standards believer and unbeliever share (the strategy Gary Phillips calls [[axiopistic]]). This article takes the other task: going past the basic premises to understand the argument itself.
+
+The three-line argument is a summary, and a summary breaks on contact with nuanced curiosity. Behind modern questions lie old, unsettled disputes about causation, explanation, and nothingness. Christians who lean on the kalam as a main evangelistic tool ought to know its best objections, whether posed with sophistication or confusion.
+
+A second reason for care belongs to the believer. Philosophical persuasiveness does not share Scripture's authority. Scripture calls creation a witness — "the heavens declare the glory of God" (Ps 19:1) — but never makes a syllogism the foundation of faith. Trust in the kalam's metaphysical claims cannot be put on a par with trust in Scripture's just because the two agree. The argument is deductive in form, yet its premises are held because they are more plausible than their denials, not because they are beyond doubt, and its conclusion can be no more certain than they are. It can clear obstacles and point toward a Creator. It cannot name the Father of our Lord Jesus Christ.
 
 ---
 
-## Where the intuition comes from, and where the fight actually is
+## Where the intuition comes from, and where the fight is
 
-The conviction that nothing begins for no reason is very old. Parmenides held around 475 BC that being cannot arise from non-being, and Aristotle built causes into the structure of his physics a century later, though he thought the world itself had no beginning to explain. Christian and Muslim theologians turned the intuition into an argument for a Creator — Philoponus in the sixth century, then al-Kindi and al-Ghazali in the Islamic *kalām* tradition that gave the argument its name. Aquinas held both that nothing comes from nothing and that God created the world from nothing, saw no conflict between the two, and doubted that reason alone could prove the world had a beginning at all.
+The conviction that nothing begins for no reason is very old. Parmenides held around 475 BC that being cannot arise from non-being. Aristotle gave causes a system, and Christian and Muslim theologians turned the intuition into an argument for a Creator: Philoponus in the sixth century, then al-Kindi and al-Ghazali in the Islamic *kalām* tradition that gave the argument its name. Aquinas saw no conflict in holding that nothing comes from nothing and that God created the world from nothing.
 
-That is the inheritance. The argument as it is fought today is much younger, and it has moved fast in the last twenty years — faster than most popular treatments have noticed.
+Modern philosophy has spent its energy on a different move. Take a belief nearly everyone holds, then redescribe it as a [[folk theory]]: a rule of thumb ordinary people live by, which the experts expect to retire. Sometimes the redescription is right. Folk physics said heavy things fall faster, and it was wrong. But the label is a claim, not a verdict, and each use of it needs its own argument. Causation is the latest candidate for the label, which lands in the middle of the kalam's first premise. Knowing where the modern debate went tells us which questions are live, and lets us treat a good-faith question as the serious thing it is.
 
-- **1739 — Hume opens the modern dispute.** In the *Treatise*, Hume argues that we can clearly conceive of an object beginning to exist without conceiving of any cause for it, and that whatever is conceivable without contradiction is possible — so reason alone cannot rule out an uncaused beginning.
-- **1781 — Kant makes causality necessary and unusable at once.** In the *Critique of Pure Reason*, Kant argues that causality is a condition the mind imposes on any possible experience, which makes it binding within experience and strips it of any authority over the universe as a whole, since the universe as a whole is never something we could experience.
-- **1913 — Russell declares causation obsolete.** In "On the Notion of Cause," Russell observes that the equations of fundamental physics relate states of a system without ever mentioning causes, and concludes that the law of causality survives only by inertia — "like the monarchy, only because it is erroneously supposed to do no harm."
-- **1974 — Anscombe answers Hume directly.** In a short paper aimed squarely at Hume's argument, Elizabeth Anscombe — Wittgenstein's student and translator — shows that picturing a thing appear without picturing its cause is not the same as picturing it appear with no cause at all; the imagination is silent on the question, which is not the same as testifying against it.
-- **1979 — Craig revives the argument.** *The Kalām Cosmological Argument* restates the medieval argument in the vocabulary of modern analytic philosophy and sets off four decades of debate.
-- **1982–2002 — Mackie, van Inwagen, and Morriston press the strongest objections.** Mackie argues that induction from inside the universe cannot be stretched to cover the universe itself; van Inwagen builds a modal argument against the broader principle that every fact has an explanation; and Morriston, in an exchange with Craig in *Faith and Philosophy*, argues that the very evidence for premise 1 supports a stronger principle that would rule out creation from nothing.
-- **2003 — Norton sharpens Russell's challenge.** In "Causation as Folk Science," John Norton argues that causal talk survives only as a useful approximation within restricted domains and vanishes at the level of fundamental physics.
-- **2006 — Pruss and Oppy publish the two books that define the current stalemate.** Alexander Pruss's *The Principle of Sufficient Reason: A Reassessment* mounts the fullest modern defense of the principle behind premise 1; Graham Oppy's *Arguing About Gods* mounts the fullest modern case that an unexplained beginning costs the naturalist nothing that a necessary God does not cost the theist.
-- **2020 and 2025 — Linford carries the objection into the philosophy of physics.** Daniel Linford argues first that if the direction of time reduces to the increase of <abbr title="A measure of disorder. The second law of thermodynamics says it tends to increase, and many philosophers of physics think that increase is what gives time its direction.">entropy</abbr>, causation likely reduces to something non-causal — and second, in 2025, that Craig's central <abbr title="Short for reductio ad absurdum: refuting a claim by showing that it leads to something absurd.">reductio</abbr> has no force against anyone who already denies that fundamental physics contains causes.
-- **2025 — Lu offers a new empirical argument for premise 1.** In *Faith and Philosophy*, David Lu argues that an unexplained beginning gives no reason to expect the universe to look the coherent age it does rather than some arbitrary, deceptive age, and that the tight agreement of independent dating methods is itself evidence the beginning was not unexplained.
-
-The real argument lives there now — not with Parmenides, but in the crowded space between Craig, Pruss, Oppy, Morriston, and Linford.
+- **1739.** David Hume, the Scottish skeptic, argues in the *Treatise* that we can conceive of something beginning without conceiving of a cause, and that the conceivable is possible.
+- **1781.** Immanuel Kant, the philosopher of Königsberg, makes causality a condition of all possible experience and so a rule with no authority over the universe as a whole.
+- **1913.** Bertrand Russell, the logician, observes that the equations of fundamental physics never mention causes, and calls the law of causality a relic that survives "like the monarchy, only because it is erroneously supposed to do no harm."
+- **1932.** Rudolf Carnap, a leader of the logical positivists, makes the sentence "the nothing itself nothings" his specimen of metaphysics gone grammatically wrong.
+- **1974.** Elizabeth Anscombe, a student and translator of Ludwig Wittgenstein, publishes the standard answer to Hume.
+- **1979.** William Lane Craig, a Christian philosopher, restates the medieval argument in modern analytic dress and sets off four decades of debate.
+- **1982–2002.** J. L. Mackie, an Oxford atheist, argues that rules learned inside the universe do not reach the universe; Adolf Grünbaum, a philosopher of physics, argues that "what caused the universe?" has no sense; Peter van Inwagen, a Christian metaphysician, builds a modal argument against the broader principle that every fact has an explanation; Wesley Morriston, a Christian philosopher, argues that the evidence for premise 1 supports a stronger principle that excludes creation from nothing.
+- **2003.** John Norton, a philosopher of physics, sharpens Russell: causal talk is a useful approximation that vanishes from fundamental physics.
+- **2006.** Alexander Pruss, a Catholic philosopher, publishes the fullest modern defense of the principle behind premise 1; Graham Oppy, an Australian atheist, publishes the fullest modern case that an unexplained beginning costs the naturalist nothing a necessary God does not cost the theist.
+- **2020 and 2025.** Daniel Linford, a philosopher of physics, argues that if the direction of time reduces to the increase of [[entropy]], causation reduces too, and that the central [[reductio]] behind premise 1 has no force against anyone who denies that fundamental physics contains causes.
+- **2025.** David Lu, a philosopher, offers a new empirical argument for premise 1 from the tight agreement of independent measurements of the universe's age.
 
 ---
 
 ## Terms, with the examples built in
 
-**1. Begins to exist.** Something begins to exist at a time if it exists then and there was no earlier time at which it existed. A candle flame begins to exist the moment the match touches the wick; before that instant, no flame existed anywhere. The definition assumes that time really passes — what philosophers call the <abbr title="The A-theory holds that past, present, and future are objectively real distinctions and that time really passes. The B-theory holds that all times are equally real and 'now' is like 'here' — a matter of perspective.">A-theory of time</abbr> — and that assumption carries real weight in the companion article on premise 2.
+**1. Begins to exist.** Something begins to exist at a time if it exists then and there was no earlier time at which it existed. A candle flame begins to exist the moment the match touches the wick; before that instant, no flame existed anywhere. The definition assumes that time really passes — the [[A-theory of time|a-theory]]. On the rival B-theory, all times are equally real, and the universe "begins" only the way a yardstick begins at its first inch: it has a front edge, but nothing comes into being there (Craig 2009). That dependency matters in the companion article on premise 2.
 
-**2. Cause and explanation.** A cause produces a thing; an explanation answers the question "why does this exist rather than not?" Every cause is a kind of explanation, but not every explanation is a cause in the narrow sense: a mathematician can explain why a theorem is true without anything having caused it. Premise 1 asks for either — something that produced the universe, or more broadly something that accounts for why it exists. That is the more demanding wording, closer to what Pruss and Koons defend, and it is the wording used throughout.
+**2. Cause and explanation.** A cause produces a thing; an explanation answers the question "why does this exist rather than not?" Every cause is a kind of explanation, but not every explanation is a cause in the narrow sense: a mathematician can explain why a theorem is true without anything having caused it. Premise 1 asks for either — something that produced the universe, or more broadly something that accounts for why it exists.
 
-**3. Efficient cause and material cause.** The efficient cause produces a thing; the material cause is what it is made from. When Michelangelo carved the *David*, he was the efficient cause and the block of Carrara marble was the material cause. A beginning with an efficient cause and no material cause — something produced from no pre-existing stuff — is exactly what the Christian doctrine of creation says happened, once.
+**3. Efficient cause and material cause.** The efficient cause produces a thing; the material cause is what it is made from. When Michelangelo carved the *David*, he was the efficient cause and the block of Carrara marble was the material cause. A beginning with an efficient cause and no material cause, something produced from no pre-existing stuff, is exactly what the Christian doctrine of creation says happened, once.
 
 **4. *Ex nihilo nihil fit.*** Latin for "out of nothing, nothing comes." This is the *principle* that nothing begins to exist with no cause or explanation whatsoever. It does not say nothing begins without raw material; it says nothing begins for no reason at all. A vending machine that dropped a candy bar with no coin, no malfunction, and no anything would violate the principle, even though a candy bar is a perfectly ordinary thing for a vending machine to produce.
 
-**5. *Creatio ex nihilo.*** Latin for "creation out of nothing." This is the *doctrine* that God brought the universe into being with no pre-existing material to work from. God supplies the efficient cause; there is no material cause at all. The doctrine and the principle above are easy to run together, and the confusion runs in both directions.
+**5. *Creatio ex nihilo.*** Latin for "creation out of nothing." This is the *doctrine* that God brought the universe into being with no pre-existing material to work from. God supplies the efficient cause; there is no material cause at all. The doctrine and the principle are run together constantly, by Christians who think the kalam proves the doctrine and by critics who think the doctrine contradicts the principle.
 
-**6. Principle of Sufficient Reason (PSR).** Every <abbr title="A contingent fact is one that could have been otherwise. A necessary fact could not have been otherwise.">contingent</abbr> fact has an explanation for why it is true. Find a rock in a field and ask why it is there, and the PSR says there is an answer even if you never learn it: a glacier left it, a farmer's wall collapsed, a construction crew abandoned it. Premise 1, on the wording used here, is a restricted PSR. It claims an explanation exists for things that *begin*, not for every fact whatsoever.
+**6. Principle of Sufficient Reason (PSR).** Every [[contingent]] fact has an explanation for why it is true. Find a rock in a field and ask why it is there, and the PSR says there is an answer even if you never learn it: a glacier left it, a farmer's wall collapsed, a construction crew abandoned it. Premise 1, on the wording used here, is a restricted PSR. It claims an explanation exists for things that *begin*, not for every fact whatsoever.
 
-**7. Brute fact.** A fact with no explanation at all — not hidden, not merely unknown, but absent. If the rock in the field had no explanation whatsoever, not even one nobody will ever discover, it would be a brute fact. Try believing that about the rock for longer than a minute.
+**7. Brute fact.** A fact with no explanation at all, not hidden, not merely unknown, but absent. If the rock in the field had no explanation whatsoever, not even one nobody will ever discover, it would be a brute fact. Whether there are any brute facts is itself in dispute; many defenders of premise 1 think there are none.
 
-**8. Three kinds of possibility.** *Logical* possibility asks only whether a description contains a contradiction. *Metaphysical* possibility asks whether a thing could really exist, given what things of that kind are. *Physical* possibility asks whether it fits the actual laws of nature. "The Prime Minister is a prime number" contains no contradiction, so it is logically possible; but prime ministers and numbers are different kinds of thing, so it is metaphysically impossible. Craig claims that an uncaused beginning is metaphysically impossible — not merely forbidden by laws some other universe might lack.
+**8. Three kinds of possibility.** *Logical* possibility asks only whether a description contains a contradiction. *Metaphysical* possibility asks whether a thing could really exist, given what things of that kind are. *Physical* possibility asks whether it fits the actual laws of nature. "The Prime Minister is a prime number" contains no contradiction, so it is logically possible; but prime ministers and numbers are different kinds of thing, so it is metaphysically impossible. Defenders of premise 1 claim that an uncaused beginning is metaphysically impossible, not merely forbidden by laws some other universe might lack.
 
-**9. Conceivability.** The ability to form a coherent mental picture of a state of affairs. Whether conceivability is good evidence of real possibility is one of the oldest disputes in philosophy, and Hume's objection runs entirely on the assumption that it is.
+**9. Conceivability.** The ability to form a coherent mental picture of a state of affairs. Whether conceivability is good evidence of real possibility is one of the oldest disputes in philosophy.
 
 ---
 
 ## The case for premise 1
 
-### Craig's three supports
+Defenders do not rest premise 1 on one argument. Nine lines lead to it. They answer four different questions: what being is, what denial would permit, what experience has shown, and how little must be assumed. Some of them look like straining at a gnat.
 
-Craig does not rest premise 1 on one argument. He gives three, and they work differently enough that an objection to one leaves the others untouched.
+### From what being is
 
-**First, a metaphysical first principle.** Being does not come from non-being. Craig treats this as something grasped rather than inferred, the way one grasps that a surface cannot be red and green all over at once, and he thinks denying it means giving up serious metaphysics in order to "resort to magic" (Reasonable Faith Q&A #9). The principle is not a law of physics. It does not describe how matter behaves. It is a claim about what can be at all.
+**Argument 1. The first principle.**
+1. Being cannot come from non-being.
+2. A beginning with no cause or explanation would be being coming from non-being.
+3. So nothing begins to exist without a cause or explanation.
 
-**Second, a reductio.** Suppose things could come into being from nothing, with no cause or explanation. Then nothing answers why only *some* things do. Why a universe, and not, this afternoon, a tiger in your kitchen? Nothing has no properties; it cannot prefer universes to tigers. Craig's own list of what ought to be popping into existence is "bicycles and Beethoven and root beer" (Craig and Sinclair 2009, 186). If uncaused origination were possible, it would be indiscriminate. It plainly is not, so it is not possible. The argument runs back through Arthur Prior to Jonathan Edwards, and skeptics find it the hardest of the three to wave away, because it does not ask them to share an intuition. It asks them to explain an absence.
+This is no law of physics, since it does not describe how matter behaves, and no law of logic, since denying it produces no contradiction on paper. It sits between the two: a claim about what can be at all, held the way one holds that a surface cannot be red and green all over at once. Line 2 of the argument compresses the step. Before a beginning, nothing exists that could account for the thing; if nothing accounts for it afterward either, the difference between *not there* and *there* has no source. The principle persuades whoever sees what "nothing" and "something" mean. Eight other arguments are for everyone else.
 
-**Third, <abbr title="Reasoning from observed cases to a general rule: every observed beginning has had a cause, so probably all beginnings do.">induction</abbr>.** Every beginning anyone has ever observed has had a cause. The principle is confirmed without exception across the whole of experience, and every laboratory on earth depends on it. Naturalists, of all people, should be the last to throw it away.
+**In a sentence:** an uncaused universe is a rabbit with no hat and no magician.
 
-Two features of Craig's version keep him out of trouble.
+**Argument 2. The Thomist argument from potency.** Edward Feser, a Thomist philosopher, and David Oderberg, a metaphysician at the University of Reading, follow Aristotle and Aquinas in grounding the principle in the nature of change.
+1. Whatever begins to exist goes from being merely possible to being actual.
+2. A thing that is merely possible cannot make itself actual; only something already actual can.
+3. Nothing is not actual, and has no potentials either. It is not a quiet emptiness waiting for something to happen. It is not anything.
+4. So whatever begins is made actual by something that already is.
 
-Premise 1 does *not* say "everything has a cause or explanation." It says everything that *begins* does. The "who made God?" rejoinder therefore misfires; the argument never claims that God, who on the theist's account did not begin, needs one. And even on the broader "cause or explanation" wording, premise 1 is not the full PSR. It does not require every fact whatsoever to be explained, only facts about things beginning to exist. *[verify: locate Craig's own explicit statement distinguishing the causal premise from the PSR]*
+A *potential* is what a thing is able to become; the *actual* is what it already is. An acorn is potentially an oak and actually an acorn. It becomes an oak only through something already actual: soil, water, sun. Cold water becomes hot only because something hot, or at least energetic, acts on it (Feser 2017). What this adds to the first principle is a mechanism. Argument 1 says being cannot come from non-being; Argument 2 says why, since becoming is the actualizing of a potential and only the actual actualizes. The argument leaves open whether the potential sits in pre-existing stuff or in the power of the cause, and that difference matters when the doctrine of creation comes up.
 
-The second feature is subtler. Premise 1 asks for a cause or explanation without saying which kind. That leaves room for a cause that is efficient without being material — which is exactly what the doctrine of creation affirms, and exactly where the most serious objection to Craig lives.
+**In a sentence:** nothing cannot make anything happen, because nothing cannot do anything.
 
-### Other engines, same conclusion
+**Argument 3. Loke's argument from non-being.** Andrew Loke, a philosopher at the University of Hong Kong, runs a related thought without the Aristotelian vocabulary. In compressed form:
+1. Non-being has no potential for anything.
+2. If a thing began without coming from something, then at its beginning there would be no potential for it and no reason for it.
+3. A beginning with neither potential nor reason is impossible.
+4. So whatever begins has a source (Loke 2017).
 
-Craig's three supports are the argument's public face. Behind them stand several independent defenses, and on the broader wording some of them are not merely parallel machinery. Since premise 1 is now a restricted form of the principle they defend, they argue for premise 1 itself.
+Where Argument 2 gives a general account of change, Argument 3 aims at the one case of a beginning, and a reader who finds the machinery of act and potency exotic can still follow it. Both arguments unpack what "nothing" means. If the unpacking succeeds, premise 1 turns out to be true by the meaning of the word.
 
-**Pruss and the price of denial.** Alexander Pruss, a Catholic philosopher at Baylor, has written the most thorough modern defense of the Principle of Sufficient Reason, and because premise 1 is a restricted PSR, his arguments land on it directly. His most forceful move does not try to prove the principle from something more basic. It shows what you lose by denying it. If things can happen for no reason, then your present perceptual experience might be one of those things. The redness you seem to see might have no connection to any red object; it might simply have occurred. You could not rule this out, and so you could not trust perception, or induction, or science (Pruss 2006; Koons and Pruss 2021). The skeptic who rejects premise 1 to escape God has sawn off the branch his own evidence is sitting on.
+**In a sentence:** if nothing was there, nothing was there to make it possible.
 
-Pruss also answers Hume head-on: conceiving of a thing beginning *without conceiving its cause* differs from conceiving of it beginning *without a cause* (Pruss 2006, ch. 4). And he argues that quantum mechanics leaves the principle standing, since indeterministic events can still have explanations that make them probable without making them inevitable (ch. 8).
+### From what denial would permit
 
-**Koons and the defeasible law.** Robert Koons approaches the question as a logician. Explanatory laws, like most laws, hold *normally*; they admit exceptions in principle. Birds fly, and Tweety is a bird, so Tweety flies — until someone mentions that Tweety is a penguin. Using the formal tools of <abbr title="Reasoning to conclusions that hold by default but can be overturned by further information.">defeasible reasoning</abbr>, Koons argues that from the existence of contingent things one can infer, by default, that the whole aggregate of contingent things has an explanation, unless someone gives a positive reason to treat the cosmos as an exception (Koons 1997). The burden shifts. The skeptic cannot merely point out that the universe is unusual; he has to show that it is unusual in the relevant way. The penguin cuts both ways, and Oppy will press exactly that point: the skeptic thinks the universe *is* the penguin.
+**Argument 4. The reductio.**
+1. If things could begin with no cause and no explanation, nothing would limit what could begin that way.
+2. If nothing limited what could begin that way, uncaused beginnings would be indiscriminate: universes, tigers, bicycles, and root beer, anywhere and at any time.
+3. Beginnings are not indiscriminate. No universe has ever appeared on your nose.
+4. So things cannot begin with no cause and no explanation.
 
-**The Thomist argument from potency.** Edward Feser and David Oderberg, following Aristotle and Aquinas, ground the principle in the nature of change. A thing that comes to be passes from <abbr title="Aristotle's terms. Potency is a real capacity to become something; act is that capacity realized. Cold water is potentially hot; boiling water is actually hot.">potency to act</abbr>, and a potential cannot make itself actual; only something already actual can. Nothing has neither actuality nor potential. It is not a quiet emptiness waiting for something to happen, because it is not *anything*, and so it cannot be the source of anything or the reason for anything. *[Ian — insert your Part Three margin note on "nothing" verbatim or revise]*
+The argument asks the skeptic to explain an absence. Nothing has no properties. It cannot prefer universes to tigers, or prefer making a universe where there is none to making one where there already is one. The skeptic who says uncaused beginnings happen must say what makes them so selective, and no shared intuition is needed to see that the question stands.
 
-**Loke's argument from non-being.** Andrew Loke runs a short version of the same thought without the Aristotelian machinery. Non-being lacks even the potential for anything; if a thing began without coming from something, there was no potential and no reason for it to begin; so whatever begins has a source (Loke 2017). Critics charge circularity, since "potential" seems to smuggle in the very principle it is meant to prove. Loke replies that he is only unpacking what "nothing" means.
+Any restriction on what could begin uncaused would itself need something imposing it, and whatever imposes a restriction is an explanation. Put the restriction in a law of nature and a law is a law *of* something; before the universe there is nothing for the law to govern and nowhere for it to hold. Of the nine, this argument asks the least of a reader's metaphysics. It asks about selectivity.
 
-**Rasmussen and the modest principle.** Joshua Rasmussen asks how *little* one needs. With Pruss, he argues from a principle far weaker than Craig's: whatever can begin to exist *could* have an external explanation (Pruss and Rasmussen 2018, ch. 4). This does not rule out uncaused beginnings. It asserts only that explanations for them are possible, and from there, with the tools of <abbr title="The logic of possibility and necessity. Its standard system S5 implies that whatever is possibly necessary is necessary.">modal logic</abbr>, they argue for a <abbr title="A being that exists in every possible situation and could not have failed to exist.">necessary being</abbr>. The approach trades Craig's directness for immunity to Hume. It concedes everything the Humean says about conceivability and still reaches a foundation.
+**In a sentence:** if nothing can come from nothing for no reason, why does a universe never come from nothing on your nose?
 
-**Lu and the age of the universe.** The newest defense turns the question empirical. David Lu argues that if the universe began with no explanation at all, nothing would constrain *which* state it began in. It could as easily have begun five minutes ago with the appearance of age — memories, starlight, and fossils included — as fourteen billion years ago, and there are vastly more ways to begin looking old than to begin actually old. Yet independent dating methods converge tightly on about 13.8 billion years. The convergence is evidence that the beginning was not a random, unexplained draw (Lu 2025).
+**Argument 5. Pruss and the price of denial.** Alexander Pruss, a Catholic philosopher at Baylor and the leading living defender of the Principle of Sufficient Reason, extends the reductio from tigers to thoughts.
+1. If experiences can begin with no cause, some of my experiences may have no cause.
+2. From the inside, an uncaused experience looks exactly like a caused one.
+3. So no experience, taken by itself, gives me reason to believe in its object.
+4. But experience does give me reason to believe in its objects.
+5. So experiences cannot begin with no cause, and neither can anything else of the same kind.
 
-These defenses do not all agree with one another. Pruss and Koons are rationalists about explanation, Feser rests everything on act and potency, Rasmussen deliberately claims less, and Lu argues from probability. The disagreement is a strength. The skeptic has to defeat each of them.
+You look up and see a coffee mug on your desk. Ordinarily the mug causes the experience. A haunted smoke alarm that sometimes sounds for no reason at all, not a faulty wire and not burnt toast, cannot tell you there is smoke, even on the nights there is. Deny premise 1, and every perception, every inductive inference, and every scientific measurement becomes as uninformative as that alarm (Pruss 2006; Koons and Pruss 2021). The argument shows what denying the premise costs. The skeptic who rejects premise 1 to escape God has sawn off the branch his own evidence sits on. Where Argument 4 asks about the world, Argument 5 asks about the knower.
+
+**In a sentence:** if experiences can start for no reason, you have no reason to trust any of them.
+
+**Argument 6. Lu and the age of the universe.** David Lu, a philosopher, turns the tiger question on the universe's first moment and makes it empirical.
+1. If the universe began with no explanation, nothing would select which initial state it began in.
+2. There are vastly more ways to begin looking old, with memories, starlight, and fossils in place, than to begin actually old. A beginning of the first kind might have been five minutes ago.
+3. Independent dating methods converge tightly on about 13.8 billion years.
+4. That convergence is what we should expect if the beginning had an explanation, and not what we should expect if it had none.
+5. So the evidence favors an explained beginning (Lu 2025).
+
+"Explained" here means a beginning something accounts for, whether by a cause or by a reason. I had a question when I first read the argument: whether the thermal history of the early universe already settles the matter. Too hot for atoms to form, the balance of matter and antimatter, nucleosynthesis: surely those constrain which state the universe began in. They do not, because that history is downstream of the initial state plus the laws. Lu's question is about the initial state itself. If the beginning were unexplained, nothing would select a state whose evolution yields that history. Argument 6 is the empirical cousin of Argument 4: the tiger is a universe that only looks old.
+
+**In a sentence:** an unexplained beginning has no reason to produce a universe that agrees with itself.
+
+### From what experience shows
+
+**Argument 7. Induction.**
+1. Every beginning anyone has observed has had a cause.
+2. No observed beginning has lacked one.
+3. So, probably, every beginning has a cause.
+
+The principle is confirmed without exception across the whole of experience, and every laboratory on earth depends on it. A chemist whose reaction produces an unexpected precipitate looks for the contaminant, not for an uncaused event. Naturalists, of all people, should be the last to throw that away. [[Induction]] supports a rule for the cases it samples; whether the rule reaches past them is always a further question. Richard Swinburne, a philosopher of religion at Oxford who accepts premise 1, thinks induction is the *only* support it has, which makes the premise probable rather than certain (Swinburne 2004, 138–39).
+
+**In a sentence:** nobody has ever caught anything beginning for no reason, and not for lack of looking.
+
+**Argument 8. Koons and the defeasible law.** Robert Koons, a logician at the University of Texas, gives the inductive support its formal shape.
+1. Laws of nature hold by default. Exceptions are possible, but each exception comes with a specific, statable reason.
+2. The causal principle works like any such law.
+3. From the existence of contingent things we may infer by default that the whole collection of them has an explanation.
+4. No one has named a feature of the whole that makes it an exception.
+5. So we are entitled to conclude the collection has an explanation (Koons 1997).
+
+Water boils at 100°C unless you are in Denver, where it boils around 95°C because the air pressure is lower. Nobody concludes from Denver that the boiling point is lawless; they conclude that altitude is a relevant difference. That is [[defeasible reasoning]]: a rule applies by default until a defeater is found. Why by default? Because that is how every law is used. We do not re-prove the boiling point before every pot of pasta. The skeptic cannot merely say the universe is unusual. He has to name its altitude.
+
+After learning about this support, I wondered whether Koons's defeasible reasoning is epistemic (we are *justified in believing*) or ontic (about what *exists*), and whether a rule about what humans can justifiably believe says anything about the universe beyond human perception. The two are distinct. Defeasible reasoning is epistemic: it describes how belief is rightly formed when conclusive proof is out of reach. The causal principle is ontological: it claims something about what there is and how things come to be. The risk is the old legal one. "Innocent until proven guilty" justifies how a court treats a man. It does not make him innocent, and a verdict of not guilty is not a fact about what he did. Koons's bridge is a realist metaphysics of laws and causal powers. If laws record real tendencies in things, then a default rule is the way a mind rightly reads a world that is in fact so structured. Without that metaphysics, a default is a rule of procedure and no more. The argument is as strong as the realism beneath it.
+
+**In a sentence:** a law holds until someone shows you the exception, and nobody has shown you the universe's.
+
+### From how little must be assumed
+
+**Argument 9. Rasmussen and the modest principle.** Joshua Rasmussen, a philosopher at Azusa Pacific University, asks how *little* one needs to assume. With Pruss, he builds from a principle much weaker than premise 1 itself.
+1. If a state of affairs can begin to obtain, it is at least *possible* that something outside it causes it.
+2. It is possible that the existence of contingent things began.
+3. So it is possible that something outside the contingent things caused them.
+4. That cause cannot itself be contingent (it would be one of the things whose beginning it was meant to explain), so it would be a necessary being.
+5. So it is possible that a necessary being exists.
+6. If it is possible that a necessary being exists, it does exist (Pruss and Rasmussen 2018).
+
+The last step is the strange one. A necessary being, if there is one, exists in *every* way things could have been. Modal logic's standard system, S5, treats what is possible and what is necessary as the same from every possible situation: what is possible is possible from anywhere. So if there is even one possible situation in which such a being exists in every situation, then it exists in every situation, and ours is one of them. Philosophers dispute whether the system describes real possibility or only handy logic. The argument concedes everything a skeptic might say about what can be pictured and still reaches a foundation. It trades directness for immunity.
+
+**In a sentence:** if a necessary being is even possible, it is real.
+
+### Do the nine contradict each other?
+
+No. They differ about what makes the principle true and how we know it. The Thomist grounds it in the nature of change, Pruss in the cost of denying it, Koons in the logic of laws, Lu in probability. None excludes the others, and a person can hold all of them at once. The one apparent tension is Rasmussen's, whose argument is built to work *even if* uncaused beginnings are possible. But Rasmussen does not assert that they are possible. He declines to rely on their impossibility.
+
+They answer four questions with three kinds of evidence. Arguments 1 to 3 are held by understanding what a beginning is. Arguments 4 to 6 are held by comparing the denial with what we observe and with how we know anything. Arguments 7 and 8 are held by the record. Argument 9 is held by logic alone. A skeptic who wants out must answer each on its own terms, and the arguments do not fail in the same places.
+
+The premise does *not* say "everything has a cause or explanation." It says everything that *begins* does. The "who made God?" rejoinder therefore misfires; the argument never claims that God, who on the theist's account did not begin, needs one. And even on the broader "cause or explanation" wording, premise 1 is not the full PSR. It does not require every fact whatsoever to be explained, only facts about things beginning to exist.
+
+Premise 1 asks for a cause or explanation without saying which kind. That leaves room for a cause that is efficient without being material, which is exactly what the doctrine of creation affirms, and exactly where one of the most serious objections lives.
 
 ---
 
 ## The case against premise 1
 
+Each objection below is stated at full strength and no further. Replies belong to the [debate article](/articles/kalam-premise-1-debate/).
+
 ### Hume: we can imagine it
 
 The oldest objection is David Hume's. Anything we can clearly distinguish in thought is possible. We can think of an object beginning to exist and, separately, think of its cause; the two ideas come apart. So we can conceive of a beginning with no cause or explanation, such a beginning is possible, and premise 1 is not necessary.
 
-Hume was not claiming that things *do* pop into being, and he was a little irritated when people said he was. In a 1754 letter he protested that he had "never asserted so absurd a Proposition as that any thing might arise without a Cause." His quarrel was with how we know the principle, not with whether it is true: he thought only habit, not reason, assures us of it.
+Hume was not claiming that things *do* pop into being, and he was irritated when people said he was. In a 1754 letter he protested that he had "never asserted so absurd a Proposition as that any thing might arise without a Cause" (Hume 1754). His quarrel was with how we know the principle, not with whether it is true. He thought habit, not reason, assures us of it. So the objection has a second face: premise 1 is a generalization from experience, and generalizations from experience do not reach past experience.
 
-Stated at full strength, the argument shows precisely where to attack it. Everything rides on the step from *conceivable* to *possible*, and that step is the one the defender of premise 1 is entitled to question. Anscombe did so in 1974. When I picture a rabbit appearing without a cause, what I actually picture is a rabbit appearing — out of a conjuror's hat, perhaps. The picture is silent about the cause. It does not depict the *absence* of one. Imagination can show me an appearance; it cannot show me that nothing stands behind it.
+The form most people actually use is quieter than Hume's. Few find an uncaused rabbit easy to picture. Many find an eternal universe easy to picture, because they have seen physicists' diagrams of one, or because the phrase "Big Bang" makes them ask what came before. The reasoning has Hume's shape: an eternal universe is conceivable, so it is possible, and if it is possible then nothing need have begun and premise 1 never applies. Strictly that targets premise 2, and the premise 2 articles take it up. It is stated here because it rests on the same step from *conceivable* to *possible*, and because the objections that follow claim evidence for either intuition.
 
-Anscombe's reply is widely admired and not universally accepted. Henry Allison argues that only a Kantian response finally answers Hume (Allison 2008, ch. 5). That is a rescue with a price, since Kant's answer to Hume generates a new objection of its own.
+**In a sentence:** We can picture a beginning with no cause, so nothing in the idea of a beginning demands one, and the premise is a habit of experience.
+
+### Carnap and the early Wittgenstein: "nothing" is not a name
+
+In 1929, Martin Heidegger, a German philosopher, gave an inaugural lecture at Freiburg that included the sentence "the nothing itself nothings." Three years later Rudolf Carnap made that sentence the showcase exhibit in an essay called "The Elimination of Metaphysics through Logical Analysis of Language," and it has been a standard classroom example of metaphysical nonsense ever since (Carnap 1932). Carnap's diagnosis was grammatical. "Nothing" looks like a noun, so we treat it as the name of something: an emptiness, a void, a thing with the property of having no properties. Logically it is not a name at all. "Nothing is in the box" means "there is not anything in the box." There is no object called Nothing for the sentence to be about.
+
+The word for the mistake is *reify*, from the Latin *res*, "thing." To reify is to treat an abstraction or an absence as though it were a thing, the way a child talks about "the dark" as a creature that lives in the closet. The charge is that defenders of premise 1 reify nothing. Read the supports: Nothing "has no properties," "cannot prefer tigers to universes," "has no potential." Each sentence treats Nothing as a very peculiar something that fails to do things.
+
+Behind Carnap stood the early Wittgenstein. The *Tractatus* taught that the propositions of logic are [[tautologies|tautology]]: they show the structure any description of a world must have, but they say nothing about which world exists. Logic can tell us that "something began and nothing caused it" is not self-contradictory. It cannot tell us whether such a thing can happen. The skeptic takes the concession to be larger than it looks. Logic alone cannot reach metaphysical possibility. No proof from logic can show an uncaused beginning impossible, because the statement passes the test of non-contradiction.
+
+What the concession does not yet give him is that nothing else can show it. Whether a thing could exist is a question about what kind of thing it would be, and logic is not the only candidate road to that. The objection's whole force depends on a further premise: that logic and experience are the only sources of knowledge, and that a claim neither logic nor experience can check is empty. That is the verification principle of the logical positivists, the school Carnap led.
+
+**In a sentence:** "Nothing" is not the name of anything, so a sentence about what Nothing cannot do is about nothing at all.
+
+### Grünbaum: causes need a before
+
+Adolf Grünbaum argues like Carnap that the question has no answer because it is malformed, a pseudo-question. They locate the malformation in different places. Carnap says it lies in the subject term: "nothing" names nothing. Grünbaum says it lies in the relation: "cause" applies only where there is a before. Causes precede their effects. If time begins with the universe, there is no earlier time at which a cause could act, and asking for the cause of the Big Bang is like asking what lies north of the North Pole, in the popular form Stephen Hawking gave the point (Grünbaum 1989; Hawking 1988).
+
+The objection is strongest where the premise treats a beginning as the passing of time. A beginning is a change, and a change happens at a time. On a view where all times are equally real and none is privileged, the universe's "beginning" is only its first edge. The difference between the two charges matters for what the apologist can say. Against Carnap he can restate the premise without "nothing" as a noun. Against Grünbaum he must clarify something about causation itself.
+
+**In a sentence:** A cause has to come before its effect, and the universe has no before.
 
 ### Mackie and Oppy: the universe is the exception
 
-J. L. Mackie and, more recently, Graham Oppy press a different point. Grant that everything we observe *within* the universe has an explanation. The universe is not one more thing within the universe. Every observed beginning is a rearrangement of something that already existed; the universe's beginning, if it had one, would be the beginning of the arena in which rearranging happens. Induction from the contents does not extend to the container.
+J. L. Mackie, and more recently Graham Oppy, press a different point. Grant that everything we observe *within* the universe has an explanation. The universe is not one more thing within the universe. Every observed beginning is a rearrangement of something that already existed; the universe's beginning, if it had one, would be the beginning of the arena in which rearranging happens. Induction from the contents does not extend to the container (Mackie 1982).
 
-Oppy sharpens the dispute into a choice between theories. Every worldview stops somewhere. The theist stops at God, who needs no further explanation. The naturalist can stop at the universe's initial state, which likewise needs none. If both accounts end in something unexplained, the naturalist's is simpler: one fewer entity, and an impersonal one at that (Oppy 2006). In Koons's terms, the universe is the penguin.
+Oppy sharpens the dispute into a choice between theories. Every worldview stops somewhere. The theist stops at God, who needs no further explanation. The naturalist can stop at the universe's initial state, which likewise needs none. If both accounts end in something unexplained, the naturalist's is simpler: one fewer entity, and an impersonal one at that (Oppy 2006).
 
-The objection locates the real question. Is the universe's beginning relevantly different from every other beginning? Craig says no: the principle concerns being and non-being, and it applies to anything that begins regardless of size. Koons says the burden lies with whoever claims an exception. Oppy says it lies with whoever claims the rule stretches that far. The disagreement is about burdens of proof, and it does not go away by being named.
+The disagreement is about burdens. One side says the principle concerns being and non-being and applies to anything that begins regardless of size. The other says the burden lies with whoever claims the rule stretches that far.
 
-The parity claim has a weak joint, though. The theist does not stop at a brute unexplained thing that happened to begin. He stops at a being that exists by the necessity of its own nature and never began. Those are different stopping places. The naturalist's initial state began, and beginnings are what premise 1 is about.
+**In a sentence:** A rule learned from things inside the universe may not govern the universe, and every worldview has to stop explaining somewhere.
+
+### Kant: a rule learned from kettles
+
+Immanuel Kant gives a deeper form of the same objection by siding with the defender against Hume. For Kant, causality is no mere habit of expectation. It is a necessary condition of any possible experience; every event we could ever meet falls under causal law. That is precisely why the principle cannot be stretched past experience. It governs the world *as it appears to us*, and the universe as a whole is not something that could ever appear in experience. Apply the categories to the totality and reason tangles itself in contradictions, which Kant called [[antinomies|antinomy]]; two of them concern exactly this question. What lies beyond appearance, the world as it is in itself, is not something we can know in terms of causes at all.
+
+This is the rigorous form of the skeptic's gut feeling, a rule learned from kettles and applied to everything.
+
+**In a sentence:** Causality is the shape our experience takes, and the universe as a whole is not an experience.
 
 ### Morriston: the induction proves too much
 
-Wesley Morriston's objection is the most dangerous one for Craig, because it is built entirely from Craig's own materials.
+Morriston's objection is like a Terminator reprogrammed against its makers: the kalam's own evidence, sent to destroy it. Or like the pig's snout on the kalam's gold ring (Prov 11:22): you wanted one, you get the other too. Morriston is a Christian philosopher who publishes in *Faith and Philosophy*, the journal of the Society of Christian Philosophers, so the criticism is intramural and self-edifying.
 
-Look at the evidence for premise 1 again. Every beginning we have observed has had a cause. It has also had something else: pre-existing material. Every table began from wood, every child from its parents' cells, every star from a collapsing cloud of gas. No one has ever watched an efficient cause produce something from no material at all. So the same induction that supports "whatever begins has a cause" supports, with exactly the same strength, "whatever begins has a *material* cause" — and that stronger principle is incompatible with *creatio ex nihilo*. If Craig's evidence is good, it proves that God could not have created the universe from nothing (Morriston 2002).
+Take another look at the evidence for premise 1. Every beginning we have observed has had a cause. It has also had something else: pre-existing material. Every table began from wood, every child from its parents' cells, every star from a collapsing cloud of gas. No one has ever watched an efficient cause produce something from no material at all. So the same induction that supports "whatever begins has a cause" supports, with exactly the same strength, "whatever begins has a *material* cause." And that stronger principle is incompatible with *creatio ex nihilo*. If the inductive evidence is good, it proves that God could not have created the universe from nothing (Morriston 2000).
 
-Morriston presses further. Creation from nothing is, he says, at least as counterintuitive as a beginning with no cause. And the intuitions behind premise 1 were formed by watching things begin *within* time. It is not obvious they transfer to the first moment of time itself.
+He presses further. Creation from nothing is, he says, at least as counterintuitive as a beginning with no cause. And the intuitions behind premise 1 were formed by watching things begin *within* time. It is not obvious they transfer to the first moment of time itself (Morriston 2002).
 
-Craig's reply has two parts. First, the generalization that everything has a material cause is *accidental*, not essential — true of everything we have seen, but not because of what causation is. Every swan any European had ever seen was white, until Dutch sailors reached western Australia in 1697. The generalization was exceptionless and still not a law. Second, the objection backfires. An uncaused, unexplained beginning lacks both an efficient cause and any reason at all. Creation from nothing lacks only a material cause; it keeps an efficient cause and a reason. If lacking a material cause is absurd, the atheist's alternative is doubly so (Craig 2002).
-
-Morriston has not been refuted, and the Christian should say so plainly. What his objection establishes is narrower than it first appears. It does not show premise 1 is false. It shows that *induction alone* cannot support premise 1 without also supporting its material-cause cousin. The defender therefore needs one of the other engines — the metaphysical intuition, Pruss's price of denial, the Thomist analysis of potency — to tell the two principles apart. And the objection explains something that puzzles many readers: why so many philosophers say the kalam, by itself, does not establish creation from nothing.
-
-### Grünbaum and Kant: causes need a before
-
-Adolf Grünbaum argues that "what caused the universe?" is a pseudo-question. Causes precede their effects. If time begins with the universe, there is no earlier time at which a cause could act, and asking for the cause of the Big Bang is like asking what lies north of the North Pole.
-
-Craig answers that causes need not precede their effects in time; they can be simultaneous. A heavy ball resting on a cushion causes the dent at the same moment the dent exists. God's creative act and the universe's first moment can coincide.
-
-Kant gives the objection its deepest form, and he does it by siding with Craig against Hume. For Kant, causality is no mere habit of expectation. It is a necessary condition of experience; every event we could ever encounter falls under causal law. That is precisely why the principle cannot be stretched past experience. It governs the world *as it appears to us*, and the universe as a whole is not something that could ever appear to us. Apply the categories to the totality and reason tangles itself in contradictions — Kant's <abbr title="Kant's name for pairs of opposite conclusions that reason seems able to prove equally well when it overreaches — for example, that the world had a beginning and that it did not.">antinomies</abbr>, two of which concern exactly this question.
-
-Christian apologists skip the Kantian objection more often than any other, and they should not. It is the rigorous, respectable form of the sophomore's gut feeling: a rule learned from kettles, applied to everything. The reply has to go through Kant's larger system, which almost no one now accepts whole. If causality is only a form our minds impose on appearances, the Kantian restriction follows. If causation and explanation are real features of things, as the Thomist and the causal-powers theorist hold, then there is no reason a real feature of beginnings should switch off at the largest scale. The dispute over premise 1 turns out to be a dispute over what causation and explanation are.
+**In a sentence:** Every beginning anyone has seen had a cause and also something to start from, so the evidence for the first rule is evidence for the second, and the second rules out creation from nothing.
 
 ### van Inwagen: the collapse of possibility
 
-Peter van Inwagen's argument usually appears on lists of objections to the full Principle of Sufficient Reason rather than to the kalam. On the broader "cause or explanation" wording, it bears on premise 1 directly.
+Peter van Inwagen, a Christian metaphysician at the University of Notre Dame and one of the most respected living philosophers of free will and ontology, is also the most formidable critic of the full Principle of Sufficient Reason. His argument usually appears on lists of objections to the PSR rather than to the kalam, but the broader "cause or explanation" wording bears on premise 1.
 
-Take every contingent truth there is and join them into one enormous conjunction: the Big Conjunctive Contingent Fact. If every contingent fact has an explanation, this one does too. What could explain it? Not a necessary truth, since necessary truths cannot explain why things are one way rather than another. Not a contingent truth, since any contingent truth is already one of the conjuncts and would end up explaining itself. So either the full PSR is false, or nothing is contingent and everything that happens had to happen (van Inwagen 1983, 202–204). Philosophers call that result <abbr title="The result that every truth is a necessary truth, leaving no room for anything to have been otherwise.">modal collapse</abbr>, and nobody wants it.
+Take every contingent truth there is and join them into one enormous conjunction: the [[Big Conjunctive Contingent Fact|bccf]]. If every contingent fact has an explanation, this one does too. What could explain it? Not a necessary truth, since necessary truths cannot explain why things are one way rather than another. Not a contingent truth, since any contingent truth is already one of the conjuncts and would end up explaining itself. So either the full PSR is false, or nothing is contingent and everything that happens had to happen (van Inwagen 1983, 202–204). Philosophers call that result [[modal collapse]], and nobody wants it, because it turns the world's being this way and not another, and every free choice in it, into a matter of necessity.
 
-Pruss answers that an explanation need not *necessitate* what it explains. A free choice explains an action without making it inevitable, and God's free choice to create explains the Big Conjunctive Contingent Fact without collapsing it into necessity. Others argue that the Big Conjunctive Contingent Fact cannot exist, for reasons parallel to Cantor's proof that there is no set of all sets.
-
-The more important point for premise 1 is scope. Van Inwagen's argument needs an explanation of *everything contingent whatsoever*. Premise 1 asks only for an explanation of *things that begin*, a far smaller class. It does not require the Big Conjunctive Contingent Fact to have an explanation, and so the collapse argument does not obviously reach it, even on the broader wording. Van Inwagen's argument is the sharpest threat to the full PSR and to Pruss's and Koons's boldest formulations. Premise 1 survives by asking for less.
+**In a sentence:** Demand an explanation for every contingent fact and you cannot stop short of making everything necessary.
 
 ### Russell, Norton, Linford: there is nothing down there to explain with
 
-The most sophisticated contemporary objection does not deny that things have causes. It denies that causation or explanation belongs to fundamental reality at all.
+The most sophisticated contemporary objection does not deny that things have causes. It denies that causation belongs to fundamental reality at all.
 
-Russell's point in 1913 was that the equations of mature physics say nothing about causes. They relate states of a system at different times, symmetrically, the way an equation relates its two sides. Norton renewed the point in 2003: causal talk is <abbr title="Norton's term for a body of useful rules of thumb that work in everyday domains but have no place in fundamental theory.">folk science</abbr>, a serviceable approximation in limited domains, the way talk of centrifugal force serves perfectly well on a merry-go-round and disappears from the fundamental laws. Many philosophers of physics now agree with him.
+Russell's point in 1913 was that the equations of mature physics say nothing about causes. They relate states of a system at different times, symmetrically, the way an equation relates its two sides. Norton renewed the point in 2003: causal talk is [[folk science]], a serviceable approximation in limited domains, the way talk of centrifugal force serves perfectly well on a merry-go-round and disappears from the fundamental laws (Norton 2003). Many philosophers of physics now agree with him.
 
-Daniel Linford draws out the consequence for the kalam. If causation is not fundamental, premise 1 has nothing fundamental to rest on, and Craig's reductio loses its grip, because the naturalist has a non-causal answer to the tiger in the kitchen. The regularities of fundamental physics, together with <abbr title="The branch of physics that explains the behavior of large systems, like a gas, from the probabilities governing their microscopic parts.">statistical mechanics</abbr>, already explain why tigers do not appear there. No causal principle is needed to keep the world orderly (Linford 2025). In an earlier paper Linford argued that if the direction of time reduces to the direction of increasing entropy, as many philosophers of physics hold, then causation reduces too, and things can begin without causes (Linford 2020).
+Daniel Linford draws out the consequence for the kalam. If causation is not fundamental, premise 1 has nothing fundamental to rest on, and the reductio loses its grip, because the naturalist has a non-causal answer to why the glove box never fills itself with paraphernalia. The regularities of fundamental physics, together with [[statistical mechanics]], already explain why such things do not appear there. No causal principle is needed to keep the world orderly (Linford 2025). In an earlier paper Linford argued that if the direction of time reduces to the direction of increasing entropy, as many philosophers of physics hold, then causation reduces too, and things can begin without causes (Linford 2020).
 
-This objection belongs at the top of the list, because it disarms the reductio on the naturalist's own ground. It needs a reply at the level of the philosophy of physics, not a louder restatement of the intuition.
+This objection disarms the reductio on the naturalist's own ground. Answering it takes an argument about what physics does and does not explain, and repeating the intuition that things obviously have causes will not do.
 
-Three replies are available. First, premise 1 is a *metaphysical* claim, and its absence from the equations of physics refutes it no more than the absence of other minds from neuroscience textbooks refutes other minds. Physics describes how states of a system are related; whether anything produces or explains those relations is a further question physics leaves open. Second, <abbr title="The view that causation is not part of fundamental reality and that causal talk is only an approximation.">eliminativism</abbr> is contested inside the philosophy of science itself. Nancy Cartwright, Stephen Mumford, and Rani Lill Anjum argue that causal powers are indispensable to understanding how science actually works. Third, the view carries a cost Pruss has already priced. If nothing is fundamentally caused or explained, what connects my experience of the world to the world? The eliminativist owes an answer too, and it cannot involve my perceptions being *caused* by their objects.
+**In a sentence:** Fundamental physics contains no causes, so there is nothing for the premise to be about and no need for a causal principle to keep the world orderly.
 
 ### Quantum events: things do pop into being
 
-The most popular objection is the weakest. Physicists speak of virtual particles emerging from the vacuum and radioactive atoms decaying at unpredictable moments for no reason. Some go further: Alexander Vilenkin's model of a universe "tunneling from nothing," Lawrence Krauss's *A Universe from Nothing.* Surely here are beginnings with no cause or explanation.
+The most popular objection is the quantum one. Physicists speak of virtual particles emerging from the vacuum and radioactive atoms decaying at unpredictable moments for no reason. Some go further: Alexander Vilenkin, a cosmologist at Tufts, proposed a model of a universe "tunneling from nothing" (Vilenkin 1982), and Lawrence Krauss, a physicist, popularized the idea in *A Universe from Nothing* (Krauss 2012). Surely here are beginnings with no cause or explanation, found in the laboratory and in the sky.
 
-The <abbr title="The lowest-energy state of a quantum field. It has energy and structure and obeys physical laws; it is not nothing.">quantum vacuum</abbr> is not nothing. It is a physical state with energy and structure, obeying physical laws, occupying space. David Albert — an atheist, and one of the leading philosophers of quantum mechanics — made exactly this complaint in his review of Krauss: vacuum states are particular arrangements of physical stuff, and the "nothing" of Krauss's title is a very busy something. Whether a decay event is uncaused also depends on how quantum mechanics is interpreted. On <abbr title="An interpretation of quantum mechanics on which particles always have definite positions and every outcome is fully determined by prior conditions.">Bohmian mechanics</abbr> every such event is fully determined. On the standard interpretations it is indeterministic, which is not the same as unexplained; the field, its laws, and its state all figure in the explanation of the event.
-
-The same caution binds the Christian. Because the verdict depends on interpretation, quantum mechanics does not *prove* premise 1 either. It is simply not where the question gets decided.
+**In a sentence:** Atoms decay and particles flicker out of the vacuum with nothing to say when, so things begin for no reason.
 
 ### Carroll: we don't need an answer
 
-Sean Carroll, a cosmologist, offers the most candid objection. The demand for an explanation of why the universe exists is, he argues, optional. Physical theories describe; they need no further "why" behind the description, and at some point explanation bottoms out in the way things are. If God is to be believed, it must be because God is the better theory — and a theory of a personal being, who can do as he likes, predicts nothing (Carroll 2012).
+Sean Carroll, a cosmologist and atheist, offers the most candid objection. The demand for an explanation of why the universe exists is, he argues, optional. Physical theories describe; they need no further "why" behind the description, and at some point explanation bottoms out in the way things are (Carroll 2012).
 
-Carroll deserves credit for honesty. He puts the dispute where it belongs: not in the cosmology, but in whether the demand for explanation is legitimate. He also misreads the argument. The kalam does not offer God as a rival physical model with adjustable parameters. It claims that physical models, however complete, describe a reality that began, and leave open a question they were never built to answer. Carroll's "we don't need to ask" is a decision to stop asking. That decision is permitted. It is not a discovery.
+Carroll reads the kalam as a competitor to cosmological models: a God-plus-Big-Bang hypothesis that must earn its place by predicting something, and that predicts nothing the models do not. On that reading premise 1 is a scientific hypothesis, and a poor one.
+
+**In a sentence:** Physics describes, the description eventually stops, and a universe with no further “why” is no failure of the theory.
+
+### Probability needs a measure
+
+The last objection is aimed at one of the supports. Lu's argument needs a way of saying that "looking old and being old" is a tiny fraction of the possible initial states. But the space of possible initial states is infinite, and there is no natural way to spread probability evenly over an infinite space, so the phrase "vastly more ways" lacks a precise meaning. Timothy and Lydia McGrew, philosophers, with the mathematician Eric Vestrup, raised the point against fine-tuning arguments in 2001 (McGrew, McGrew, and Vestrup 2001). A probability distribution over initial states, they argue, is exactly what cannot be had.
+
+**In a sentence:** You cannot count the ways to look old in an infinite space, so “vastly more” means nothing.
 
 ---
 
@@ -204,99 +313,57 @@ Carroll deserves credit for honesty. He puts the dispute where it belongs: not i
 
 Christians sometimes assume the kalam proves creation out of nothing. Critics sometimes say it contradicts creation out of nothing. Both mistakes come from running two claims together.
 
-The Latin is short and the difference is large. *Ex nihilo nihil fit* is a principle about causes: nothing comes into being with no cause or reason at all. *Creatio ex nihilo* is a doctrine about materials: God made the world without using any pre-existing stuff. The first denies a beginning with *no* explanation. The second affirms a beginning with an efficient cause and no material cause. They do not contradict each other, and the medievals held both without strain. Craig puts it exactly: only in creation is there a cause that brings the object into being (Q&A #9).
+The two Latin phrases share the words *ex nihilo* and almost nothing else. *Ex nihilo nihil fit* is a principle about causes: nothing comes into being with no cause or reason at all. *Creatio ex nihilo* is a doctrine about materials: God made the world without using any pre-existing stuff. The first denies a beginning with *no* explanation. The second affirms a beginning with an efficient cause and no material cause. They do not contradict each other. Craig puts it exactly: only in creation is there a cause that brings the object into being (Craig 2007). Elsewhere he puts it this way: when God creates, "God is a being," and he produces the universe; that is very different from being coming from non-being (Craig 2009).
 
-What the kalam delivers, then, is less than the doctrine. Its conclusion is that the universe has a cause or explanation. Whether that cause worked with materials or without them, the syllogism does not say. The step to *creatio ex nihilo* needs a further premise — that the universe includes all of physical reality, so that no physical material existed beforehand to work with — and it has to survive Morriston's point that every observed cause works with material. That is why careful critics say the kalam does not prove creation from nothing. About the bare syllogism, they are right, even if the further steps can be defended.
+What the kalam delivers, then, is less than the doctrine. Its conclusion is that the universe has a cause or explanation. Whether that cause worked with materials or without them, the syllogism does not say. The step to *creatio ex nihilo* needs a further premise, that the universe includes all of physical reality, so that no physical material existed beforehand to work with, and it has to meet Morriston's point that every observed cause works with material. That is why careful critics say the kalam does not prove creation from nothing. About the bare syllogism, they are right, even if the further steps can be defended.
 
-Scripture holds both sides of this together without strain. Paul says that God's eternal power and divine nature "have been clearly seen, being understood from what has been made" (Rom 1:20). The writer to the Hebrews says that "by faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible" (Heb 11:3). Notice what each one claims. Paul says the Maker is visible in the thing made: any honest person can see that someone stands behind the world, and no one is excused for looking away. Hebrews says the *manner* of the making — by a word, out of nothing visible — is grasped by faith, received from the God who "calls into being things that were not" (Rom 4:17). The first belongs to what God shows everyone. The second belongs to what God tells his people. The argument can walk a person to the edge of the doctrine. It cannot carry him across; the word of God does that. We should be glad of both, and confuse neither.
-
----
-
-## Voices from outside the debate
-
-The kalam debate is usually conducted between apologists and their critics. Several thinkers who never joined it shed more light on premise 1 than most of those who did.
-
-**Kant** turns the question into one about the scope of causal reasoning. He shows that the sophomore's gut objection is not naive. It has a rigorous form, and the believer who answers it has to say what causation and explanation actually are.
-
-**Wittgenstein**, in *On Certainty* — a book Anscombe co-edited after his death — argued that some propositions are not conclusions of inquiry but its frame: the riverbed rather than the water. Nobody tests whether the earth existed a hundred years ago; the testing of everything else presupposes it. *Ex nihilo nihil fit* may be one of these hinges. If so, both Craig and Hume misdescribe it. Craig calls it self-evident, as though it were a truth one could simply see. Hume demands proof, as though it were a hypothesis awaiting evidence. It is neither. It is part of the scaffolding within which seeing and proving happen, and the person who "doubts" it is not doubting a claim so much as declining to play the game of explanation at all. The reading helps the defender, because the doubt turns out to be idle, and it costs him something, because hinges are not *known* in the ordinary sense. *[This application is the author's own proposal; no published source located yet. Check Pritchard, Moyal-Sharrock.]*
-
-**Peirce** and the logic of <abbr title="Inference to the best explanation: reasoning from evidence to the hypothesis that would best account for it.">abduction</abbr> raise a question the defenders rarely ask: what kind of knowledge is premise 1? Craig treats it at one moment as self-evident and at another as an inductive generalization, and his critics often recast it as an inference to the best explanation. Those are three epistemic statuses with three different vulnerabilities. Michael Della Rocca's work suggests a fourth: the principle is presupposed by every inference to the best explanation, since abduction assumes that the thing being explained has an explanation to find. Philosophers reject brute facts constantly — in philosophy of mind, in metaethics — and Della Rocca argues that no principled line has ever been found for where the rejecting stops. The skeptic who is a rationalist everywhere except at the beginning of the universe owes an account of why.
-
-**The metaphysics of causation** decides much of the question on its own. If David Lewis was right that reality is a <abbr title="Lewis's picture of reality as a vast arrangement of local facts, with laws and causes being nothing more than patterns in the arrangement.">mosaic of local facts</abbr> with no necessary connections between them, premise 1 is unmotivated. If <abbr title="The view that things have real capacities to produce effects, so that causing is something objects actually do.">causal powers</abbr> are real — if things really produce effects and there are reasons for what they do — premise 1 is close to trivial. The debate about the kalam's first line sits downstream of this one.
+Scripture never contradicts itself on this, but it does something the argument cannot. Some of what it claims can be seen, argued, and tested. Some of it can be known only because God has said it, and there its authority is the whole of our ground. Paul writes that God's "invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse" (Rom 1:20). That is the part open to argument. The made world displays its Maker's power and divinity, and no one is excused for suspending judgment forever in the name of keeping inquiry open. Hebrews says, "By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible" (Heb 11:3). That is the part received. No metaphysics and no cosmology can show that the world was spoken rather than assembled. The God who "calls into existence the things that do not exist" (Rom 4:17) has said so, and for those who trust him that settles it. The argument can walk a person to the edge of the doctrine. It cannot carry him across; the word of God does that. We should be glad of both, and confuse neither.
 
 ---
 
-## Worked example: the particle from the vacuum
-
-A physics student says: "Virtual particles appear from the vacuum without any cause. So premise 1 is false."
-
-**Step 1. Identify the "nothing."** The quantum vacuum is the lowest-energy state of a quantum field. It exists in space, has energy, and obeys laws. Whatever appears from it appears from *something*.
-
-**Step 2. Separate "unpredictable" from "unexplained."** On standard quantum mechanics, the exact moment of a fluctuation is not fixed in advance. But the fluctuation has conditions: the field, its dynamics, its state. An indeterministic event can still have an explanation, and premise 1 asks only for a cause or explanation, not a deterministic one.
-
-**Step 3. Check the interpretation.** On Bohmian mechanics the event is fully determined. On <abbr title="Interpretations of quantum mechanics on which the wave function randomly collapses; outcomes are chancy but governed by law.">collapse theories</abbr> it is chancy but lawful. "Uncaused" is not an observation. It is an interpretive choice laid over the observations.
-
-**Step 4. Test against premise 1.** Premise 1 is not threatened. Neither is it confirmed, since the same interpretive openness blocks any use of quantum mechanics to prove it.
-
-**Step 5. Note the disanalogy.** Even if vacuum fluctuations had no cause, they occur inside space, within fields, under laws. The beginning of the universe, if premise 2 is true, is the beginning of space, fields, and laws. The example cannot be scaled up to the case the argument is about.
-
-**Result.** The objection fails, by a route that also stops the apologist from claiming physics as an ally on premise 1.
+<!-- glossary -->
 
 ---
 
-## Strengths and limits
+## Works cited
 
-**What premise 1 has going for it.** It is modest, even on the broader wording: it does not claim everything has a cause or explanation, only that things which begin do. It is over-determined, since at least six independent defenses reach it by different routes, and an objection that damages one leaves the others standing. And denying it has a cost its critics rarely pay in full. Whoever says things can begin with no cause and no reason at all must explain why they so conspicuously don't — without appealing to anything that *explains* why they don't.
+Entries marked † are awaiting a check against the primary text for page numbers and wording.
 
-**Where the pressure falls.** Not on Hume, whose argument Anscombe answered, and not on quantum mechanics, which is a red herring. The serious pressure comes from two directions. From inside, Morriston shows that the inductive support for premise 1 cannot stand alone. From outside, the Kantian and the eliminativist deny that causal or explanatory principles reach the universe as a whole, or reach fundamental reality at all. Both are, at bottom, disputes about the nature of causation and explanation, and the defender of premise 1 has to be willing to have that argument.
+- Albert, David. "On the Origin of Everything." Review of *A Universe from Nothing*, by Lawrence Krauss. *New York Times Sunday Book Review*, March 23, 2012. †
+- Anscombe, G. E. M. "'Whatever Has a Beginning of Existence Must Have a Cause': Hume's Argument Exposed." *Analysis* 34, no. 5 (1974): 145–51.
+- Carnap, Rudolf. "Überwindung der Metaphysik durch logische Analyse der Sprache." *Erkenntnis* 2 (1932): 219–41. Translated by Arthur Pap as "The Elimination of Metaphysics through Logical Analysis of Language," in *Logical Positivism*, edited by A. J. Ayer, 60–81. New York: Free Press, 1959. †
+- Carroll, Sean. "Does the Universe Need God?" In *The Blackwell Companion to Science and Christianity*, edited by J. B. Stump and Alan G. Padgett, 185–97. Oxford: Wiley-Blackwell, 2012. †
+- Craig, William Lane. *The Kalām Cosmological Argument*. London: Macmillan, 1979.
+- ———. "Causal Premiss of the Kalam Argument." Reasonable Faith, Question of the Week #9, June 18, 2007. †
+- ———. "Debate on the Kalam Argument." *Reasonable Faith* podcast, with Kevin Harris, April 13, 2009. Transcript.
+- Craig, William Lane, and James D. Sinclair. "The Kalam Cosmological Argument." In *The Blackwell Companion to Natural Theology*, edited by William Lane Craig and J. P. Moreland, 101–201. Oxford: Wiley-Blackwell, 2009. †
+- Feser, Edward. *Five Proofs of the Existence of God*. San Francisco: Ignatius Press, 2017.
+- Grünbaum, Adolf. "The Pseudo-Problem of Creation in Physical Cosmology." *Philosophy of Science* 56, no. 3 (1989): 373–94. †
+- Hawking, Stephen. *A Brief History of Time*. New York: Bantam, 1988. †
+- Hume, David. *A Treatise of Human Nature*. 1739–40. Book 1, part 3, section 3.
+- ———. Letter to John Stewart, February 1754. In *The Letters of David Hume*, edited by J. Y. T. Greig, 1:185–88. Oxford: Clarendon Press, 1932. †
+- Kant, Immanuel. *Critique of Pure Reason*. 1781; 2nd ed. 1787.
+- Koons, Robert C. "A New Look at the Cosmological Argument." *American Philosophical Quarterly* 34, no. 2 (1997): 171–92. †
+- Koons, Robert C., and Alexander R. Pruss. "Skepticism and the Principle of Sufficient Reason." *Philosophical Studies* 178 (2021): 1079–99.
+- Krauss, Lawrence M. *A Universe from Nothing*. New York: Free Press, 2012.
+- Linford, Daniel. "The Kalām Cosmological Argument Meets the Mentaculus." *British Journal for the Philosophy of Science* (2020). †
+- ———. "Without Microphysical Causation, Not Just Anything Can Begin to Exist Just Anywhere." *European Journal for Philosophy of Science* 15 (2025): article 50.
+- Loke, Andrew Ter Ern. *God and Ultimate Origins: A Novel Cosmological Argument*. Cham: Palgrave Macmillan, 2017. †
+- Lu, David. "The Universe Didn't Begin Uncaused: A New Argument for the Kalām Causal Principle." *Faith and Philosophy* 41, no. 2 (2025): 239–64.
+- Mackie, J. L. *The Miracle of Theism*. Oxford: Clarendon Press, 1982.
+- McGrew, Timothy, Lydia McGrew, and Eric Vestrup. "Probabilities and the Fine-Tuning Argument: A Sceptical View." *Mind* 110 (2001): 1027–37. †
+- Morriston, Wesley. "Must the Beginning of the Universe Have a Personal Cause? A Critical Examination of the Kalam Cosmological Argument." *Faith and Philosophy* 17, no. 2 (2000): 149–69. †
+- ———. "Causes and Beginnings in the Kalam Argument: Reply to Craig." *Faith and Philosophy* 19, no. 2 (2002): 233–44. †
+- Norton, John D. "Causation as Folk Science." *Philosophers' Imprint* 3, no. 4 (2003): 1–22.
+- Oppy, Graham. *Arguing About Gods*. Cambridge: Cambridge University Press, 2006. †
+- Pruss, Alexander R. *The Principle of Sufficient Reason: A Reassessment*. Cambridge: Cambridge University Press, 2006.
+- Pruss, Alexander R., and Joshua L. Rasmussen. *Necessary Existence*. Oxford: Oxford University Press, 2018. †
+- Russell, Bertrand. "On the Notion of Cause." *Proceedings of the Aristotelian Society* 13 (1912–13): 1–26. †
+- Swinburne, Richard. *The Existence of God*. 2nd ed. Oxford: Clarendon Press, 2004. †
+- van Inwagen, Peter. *An Essay on Free Will*. Oxford: Clarendon Press, 1983.
+- Vilenkin, Alexander. "Creation of Universes from Nothing." *Physics Letters B* 117 (1982): 25–28.
+- Wittgenstein, Ludwig. *Tractatus Logico-Philosophicus*. Translated by C. K. Ogden. London: Kegan Paul, 1922.
 
-**What premise 1 cannot do.** Even granted, it establishes nothing about the universe until premise 2 is established. Even with premise 2, it delivers a cause or explanation, not a Creator worthy of worship; the argument for the cause's attributes is a separate step. And no version of it delivers the triune God, the incarnation, or the gospel. Its job is to clear the ground — to show that belief in a Creator is not wishful thinking but the most natural reading of a principle nearly everyone lives by. That job is worth doing. It is not the whole job.
+Scripture quotations are from the ESV.
 
----
 
-## For the conversation itself
-
-Understanding premise 1 this deeply is not for winning an argument on paper. It is for being useful to an actual person who is actually asking. The five situations below are the ones you are likeliest to meet — at a coffee shop table, after a Bible study, in a dorm hallway — and each asks for something a little different from reciting the defense.
-
-**1. A friend in your dorm says: "Fine, but if everything needs a cause, doesn't God need one too?" How do you respond, and what does his question reveal about how he's hearing the argument?**
-<details><summary>Model response</summary>Clarify before you correct: "That's a fair question — but notice the argument never says <em>everything</em> needs a cause. It says everything that <em>begins to exist</em> does. God, on the classical view, never began." Then invite him further instead of declaring victory: "So the real question isn't 'what caused God.' It's whether God's existence needs some other kind of explanation — and that's a great next question, because it's a different argument." What his question reveals: he's hearing the premise as broader than it is, which is the most common misunderstanding you'll meet. Naming that gently, without making him feel corrected, is most of the job.</details>
-
-**2. You're leading a college Bible study, and a student who has read some Sean Carroll says: "Carroll says we don't actually need an explanation for the universe — physics just describes, it doesn't have to answer 'why.'" How do you draw the group into that claim instead of simply refuting it?**
-<details><summary>Model response</summary>Hold back Craig's reply for a moment and ask the group: "Is that a discovery Carroll made, or a decision he made?" Let them sit with it. Most will see, with a little prompting, that "we don't need to ask why" is a choice about which questions count as legitimate, not a finding from a telescope or an equation. Then add: the kalam was never a rival physics experiment. It asks whether physical description, however complete, is the same thing as an account of why anything physical exists at all. Carroll is allowed to stop asking. That doesn't make the question illegitimate. The teaching point: let the group find the difference between a decision and a discovery before you name it.</details>
-
-**3. A philosophy major you're discipling raises Morriston's objection with real precision: "Every cause we've ever observed also had material to work with. So your own evidence for premise 1 supports the idea that God needed material too." This is a strong objection. How do you handle it truthfully in the moment, and what do you do afterward?**
-<details><summary>Model response</summary>In the moment, say plainly that this is the sharpest version of the objection and that you won't pretend it has a quick answer. Then work it together instead of performing certainty: "Look at what the objection shows and what it doesn't. It shows that <em>induction by itself</em> can't get us all the way to 'God made the world from nothing.' It doesn't show the premise is false, because there are other reasons to hold it that don't depend on induction — reasons from the very idea that nothing has no potential to produce anything." Afterward, follow up. Don't let a sharp objection sit unaddressed once the conversation ends. That is exactly what discipleship is for, and coming back to it a week later tells him hard questions are welcome, not threatening.</details>
-
-**4. Someone at a campus outreach event says: "I looked this up, and even the philosophers who believe in God admit the argument doesn't prove creation out of nothing." Is he right, and how do you answer without conceding too much or overclaiming?**
-<details><summary>Model response</summary>He's largely right, and saying so plainly will earn more credibility than resisting would. "You're right that the syllogism by itself gets you to 'the universe has a cause,' not all the way to 'God made it from absolutely nothing.' Careful philosophers say that, and they're being honest." Then show him what the argument does deliver: "But notice where it leaves you — a universe that began needs something outside it to explain the beginning, and that's already a long way from where a lot of people start." This is theological triage in real time. Distinguish what the argument proves from what the whole Christian claim involves, and let Scripture, not the syllogism, carry the rest. Doing that in front of a skeptic is itself a lesson in reasoning with integrity.</details>
-
-**5. A skeptical relative at a holiday dinner says: "Nobody actually knows what caused the Big Bang, and even physicists disagree, so why should I trust some philosophical argument over scientists who admit they don't know?" How do you keep the conversation from becoming a standoff, and what do you actually say?**
-<details><summary>Model response</summary>Agree with the true part at once: "You're right that physicists disagree about a lot of the details, and I wouldn't want to overstate what any one study proves." That agreement signals you're not going to bluff him with a fact he can google and disprove. Then turn gently to the actual question: "But the argument isn't trying to settle a physics dispute. It's asking the question underneath the physics: whatever the details turn out to be, does something that begins need some explanation for existing at all? You can ask that however the cosmology shakes out." The relational point: a holiday table is not the place to win a debate. It is the place to leave one true, respectful sentence he can keep thinking about after you've both moved on to dessert.</details>
-
----
-
-## Glossary
-
-- **A-theory / B-theory of time.** The A-theory holds that time really passes and the present is objectively special. The B-theory holds that all times are equally real and "now" is perspectival, like "here."
-- **Abduction.** Inference to the best explanation: reasoning from evidence to the hypothesis that would best account for it.
-- **Act and potency.** Aristotelian terms. Potency is a real capacity to be otherwise; act is the realization of a capacity. A cold kettle is potentially hot.
-- **Antinomy.** In Kant, a pair of opposite conclusions that reason seems able to prove equally well when it overreaches.
-- **Big Conjunctive Contingent Fact.** The conjunction of all contingent truths, used in van Inwagen's argument against the full Principle of Sufficient Reason.
-- **Brute fact.** A fact with no explanation of any kind.
-- **Causal finitism.** Pruss's thesis that nothing has an infinite causal history. Relevant to premise 2.
-- **Causal powers.** The view that things have real capacities to produce effects, so that causation is a genuine feature of the world.
-- **Contingent.** Could have been otherwise. Opposite of necessary.
-- ***Creatio ex nihilo.*** The doctrine that God created the universe without any pre-existing material.
-- **Defeasible reasoning.** Reasoning to conclusions that hold by default but can be overturned by further information.
-- **Efficient cause.** That which produces an effect.
-- **Eliminativism about causation.** The view that causation is not part of fundamental reality; causal talk is an approximation.
-- ***Ex nihilo nihil fit.*** "Out of nothing, nothing comes." The principle that nothing begins to exist with no cause or explanation.
-- **Hinge proposition.** In Wittgenstein's *On Certainty*, a proposition that frames inquiry rather than being tested by it.
-- **Induction.** Reasoning from observed cases to a general rule.
-- **Material cause.** That out of which a thing is made.
-- **Metaphysical possibility.** What could really be the case given the natures of things; stricter than logical possibility.
-- **Modal collapse.** The result that everything that is true is necessarily true, leaving no room for contingency.
-- **Necessary being.** A being that could not have failed to exist.
-- **Principle of Sufficient Reason (PSR).** Every contingent fact has an explanation.
-- **Quantum vacuum.** The lowest-energy state of a quantum field; a physical state, not nothing.
-- **Reductio ad absurdum.** Refuting a claim by showing that it leads to absurdity.

@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import { seriesItems } from '../../lib/articles';
+import { series } from '../../data/series';
+
+export function getStaticPaths() {
+  return Object.keys(series).map((slug) => ({ params: { slug } }));
+}
+const { slug } = Astro.params;
+const meta = series[slug!];
+const items = await seriesItems(slug!);
+---
+<Base title={meta.title} description={meta.description}>
+  <div class="wrap">
+    <section class="hero">
+      <h1>{meta.title}</h1>
+      <p>{meta.description}</p>
+    </section>
+    <ol class="courses">
+      {items.map((i) => i.kind === 'article' ? (
+        <li class="course">
+          <span class="tag">Part {i.entry.data.part}{i.entry.data.companion ? ', debate' : ''}</span>
+          <h3><a href={`/articles/${i.entry.id}/`}>{i.entry.data.title}</a></h3>
+          {i.entry.data.subtitle && <p>{i.entry.data.subtitle}</p>}
+        </li>
+      ) : (
+        <li class="course">
+          <span class="tag">Part {i.planned.part}, coming</span>
+          <h3>{i.planned.title}</h3>
+        </li>
+      ))}
+    </ol>
+  </div>
+</Base>

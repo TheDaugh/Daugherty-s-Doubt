@@ -1,77 +1,43 @@
 ---
-import { getCollection } from 'astro:content';
-import Article from '../layouts/Article.astro';
+import Base from '../layouts/Base.astro';
+import Stack from '../components/Stack.astro';
+import { published } from '../lib/articles';
+import { series } from '../data/series';
+import { site } from '../data/site';
 
-const allArticles = await getCollection('articles');
-
-// Skip anything still marked DRAFT so unfinished work doesn't show on the live site.
-const published = allArticles.filter((a) => !a.data.status?.toUpperCase().includes('DRAFT'));
-
-// Group by seriesSlug. Articles without a seriesSlug land in "Standalone".
-type Entry = (typeof published)[number];
-const groups = new Map<string, { label: string; entries: Entry[] }>();
-
-for (const entry of published) {
-  const key = entry.data.seriesSlug ?? '__standalone__';
-  const label = entry.data.seriesSlug ? (entry.data.series ?? entry.data.seriesSlug) : 'Standalone';
-  if (!groups.has(key)) groups.set(key, { label, entries: [] });
-  groups.get(key)!.entries.push(entry);
-}
-
-// Sort each group's entries by seriesOrder (undefined sorts last), then title.
-for (const group of groups.values()) {
-  group.entries.sort((a, b) => {
-    const ao = a.data.seriesOrder ?? Infinity;
-    const bo = b.data.seriesOrder ?? Infinity;
-    if (ao !== bo) return ao - bo;
-    return a.data.title.localeCompare(b.data.title);
-  });
-}
-
-// Standalone group last, series groups alphabetically by label before it.
-const sortedGroups = [...groups.entries()].sort(([keyA, a], [keyB, b]) => {
-  if (keyA === '__standalone__') return 1;
-  if (keyB === '__standalone__') return -1;
-  return a.label.localeCompare(b.label);
-});
+const all = await published();
+const standalone = all.filter((a) => !a.data.seriesSlug).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const slugs = Object.keys(series);
 ---
-<Article title="Unshakable">
-  <h1>Unshakable</h1>
-  <p class="tagline">Faith examined is faith worth keeping.</p>
-
-  {sortedGroups.map(([, group]) => (
-    <section class="series-group">
-      <h2>{group.label}</h2>
-      <ul>
-        {group.entries.map((a) => (
-          <li>
-            <a href={`/articles/${a.id}/`}>{a.data.title}</a>
-            {a.data.subtitle && <> — {a.data.subtitle}</>}
-          </li>
-        ))}
-      </ul>
+<Base title={site.name}>
+  <div class="wrap">
+    <section class="hero">
+      <h1>{site.tagline}</h1>
+      <p>{site.description}</p>
     </section>
-  ))}
-</Article>
 
-<style>
-  .tagline {
-    font-family: system-ui, sans-serif;
-    color: var(--muted);
-    margin-top: -0.25rem;
-  }
-  .series-group {
-    margin-top: 2.5rem;
-  }
-  .series-group h2 {
-    font-size: 1.3rem;
-    border-bottom: 1px solid var(--rule);
-    padding-bottom: 0.4rem;
-  }
-  .series-group ul {
-    padding-left: 1.2rem;
-  }
-  .series-group li {
-    margin: 0.4rem 0;
-  }
-</style>
+    {slugs.map((s) => (
+      <section class="series-card">
+        <div>
+          <h2><a href={`/series/${s}/`}>{series[s].title}</a></h2>
+          <p>{series[s].description}</p>
+        </div>
+        <Stack slug={s} />
+      </section>
+    ))}
+
+    {standalone.length > 0 && (
+      <>
+        <h2 class="section-title">More articles</h2>
+        <ul class="courses">
+          {standalone.map((a) => (
+            <li class="course">
+              <h3><a href={`/articles/${a.id}/`}>{a.data.title}</a></h3>
+              {a.data.subtitle && <p>{a.data.subtitle}</p>}
+            </li>
+          ))}
+        </ul>
+      </>
+    )}
+  </div>
+</Base>

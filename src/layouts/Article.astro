@@ -1,135 +1,41 @@
 ---
-interface Props {
-  title: string;
-  subtitle?: string;
-  series?: string;
-  tier?: string;
-  status?: string;
-}
-const { title, subtitle, series, tier, status } = Astro.props;
+import Base from './Base.astro';
+import Stack from '../components/Stack.astro';
+import { seriesItems, titleOf } from '../lib/articles';
+import { series as seriesMeta } from '../data/series';
+interface Props { id: string; data: any; }
+const { id, data } = Astro.props;
+const items = data.seriesSlug ? await seriesItems(data.seriesSlug) : [];
+const at = items.findIndex((i) => i.kind === 'article' && i.entry.id === id);
+const prev = at > 0 ? items[at - 1] : undefined;
+const next = at >= 0 ? items[at + 1] : undefined;
+const meta = data.seriesSlug ? seriesMeta[data.seriesSlug] : undefined;
+const isDraft = data.status?.toUpperCase().includes('DRAFT');
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
-    {subtitle && <meta name="description" content={subtitle} />}
-  </head>
-  <body>
-    <header class="meta">
-      <a href="/" class="site-title">Unshakable</a>
-      {series && <span> · {series}</span>}
-      {tier && <span class="tier">{tier}</span>}
-      {status && <p class="status">{status}</p>}
-    </header>
-    <article class="prose">
-      <slot />
+<Base title={data.title} description={data.subtitle}>
+  <div class="wrap article-grid">
+    {data.seriesSlug && meta && (
+      <aside class="side" aria-label="Series">
+        <h2><a href={`/series/${data.seriesSlug}/`}>{meta.title}</a></h2>
+        <Stack slug={data.seriesSlug} current={id} />
+      </aside>
+    )}
+    <article>
+      <header class="article-head">
+        {data.series && <p class="crumb"><a href={`/series/${data.seriesSlug}/`}>{data.series}</a></p>}
+        <h1>{data.title}</h1>
+        {data.subtitle && <p class="sub">{data.subtitle}</p>}
+      </header>
+      {isDraft && <p class="draft-banner">{data.status}</p>}
+      <div class="prose"><slot /></div>
+      {(prev || next) && (
+        <nav class="pager" aria-label="Series navigation">
+          {prev?.kind === 'article' ? <a href={`/articles/${prev.entry.id}/`}><small>Previous</small>{titleOf(prev)}</a> : <span></span>}
+          {next?.kind === 'article'
+            ? <a class="next" href={`/articles/${next.entry.id}/`}><small>Next</small>{titleOf(next)}</a>
+            : next ? <span class="off"><small>Next, coming</small>{titleOf(next)}</span> : null}
+        </nav>
+      )}
     </article>
-  </body>
-</html>
-
-<style is:global>
-  :root {
-    --bg: #fbfaf7;
-    --fg: #1f1d1a;
-    --muted: #6b665e;
-    --accent: #7a3e1d;
-    --rule: #e3dfd6;
-    --panel: #f2efe8;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme='light']) {
-      --bg: #171614;
-      --fg: #e9e5dd;
-      --muted: #a39d92;
-      --accent: #e0a37c;
-      --rule: #34312c;
-      --panel: #211f1c;
-    }
-  }
-  :root[data-theme='dark'] {
-    --bg: #171614;
-    --fg: #e9e5dd;
-    --muted: #a39d92;
-    --accent: #e0a37c;
-    --rule: #34312c;
-    --panel: #211f1c;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--fg);
-    font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
-    font-size: 1.125rem;
-    line-height: 1.7;
-  }
-  .meta, .prose {
-    max-width: 42rem;
-    margin: 0 auto;
-    padding: 0 16px;
-  }
-  .meta {
-    padding-top: 1.5rem;
-    font-family: system-ui, sans-serif;
-    font-size: 0.85rem;
-    color: var(--muted);
-  }
-  .meta a { color: var(--muted); }
-  .site-title {
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    color: var(--fg) !important;
-  }
-  .tier {
-    margin-left: 0.5rem;
-    padding: 0.1rem 0.45rem;
-    border: 1px solid var(--rule);
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-size: 0.7rem;
-    letter-spacing: 0.05em;
-  }
-  .status {
-    margin: 0.75rem 0 0;
-    padding: 0.5rem 0.75rem;
-    background: var(--panel);
-    border-left: 3px solid var(--accent);
-  }
-  .prose { padding-bottom: 5rem; }
-  .prose h1 { font-size: 2.2rem; line-height: 1.2; margin: 1.5rem 0 0.5rem; }
-  .prose h2 { font-size: 1.5rem; margin-top: 2.5rem; line-height: 1.3; }
-  .prose h3 { font-size: 1.2rem; margin-top: 2rem; }
-  .prose a { color: var(--accent); }
-  .prose hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
-  .prose blockquote {
-    margin: 1.5rem 0;
-    padding: 0.75rem 1.25rem;
-    background: var(--panel);
-    border-left: 3px solid var(--accent);
-  }
-  .prose abbr[title] {
-    text-decoration: underline dotted;
-    text-underline-offset: 3px;
-    cursor: help;
-  }
-  .prose details {
-    margin: 0.5rem 0 1.75rem;
-    padding: 0.6rem 1rem;
-    background: var(--panel);
-    border: 1px solid var(--rule);
-    border-radius: 6px;
-  }
-  .prose summary {
-    cursor: pointer;
-    font-family: system-ui, sans-serif;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--accent);
-  }
-  .prose details[open] summary { margin-bottom: 0.5rem; }
-  .prose code { font-size: 0.9em; }
-  .prose img { max-width: 100%; }
-  .prose table { display: block; overflow-x: auto; }
-</style>
+  </div>
+</Base>

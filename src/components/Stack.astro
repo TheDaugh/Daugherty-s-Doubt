@@ -1,0 +1,18 @@
+---
+import { seriesItems, titleOf } from '../lib/articles';
+interface Props { slug: string; current?: string; }
+const { slug, current } = Astro.props;
+const items = await seriesItems(slug);
+---
+<ol class="stack">
+  {items.map((i) => (
+    <li class:list={[i.kind === 'article' ? 'done' : 'todo', i.kind === 'article' && i.entry.id === current && 'here']}>
+      <span class="n">{i.kind === 'article' ? i.entry.data.part : i.planned.part}</span>
+      {i.kind === 'article'
+        ? <a href={`/articles/${i.entry.id}/`} aria-current={i.entry.id === current ? 'page' : undefined}>{titleOf(i)}</a>
+        : <span>{titleOf(i)}</span>}
+      {i.kind === 'article' && i.entry.data.companion && <span class="comp">debate</span>}
+      {i.kind === 'planned' && <span class="comp">coming</span>}
+    </li>
+  ))}
+</ol>
