@@ -1,0 +1,18 @@
+---
+import { site } from '../data/site';
+const path = Astro.url.pathname;
+const cur = (p: string) => (p === '/' ? path === '/' : path.startsWith(p)) ? 'page' : undefined;
+---
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="5" fill="currentColor"/><rect x="5" y="10" width="17" height="5" fill="currentColor"/><rect x="2" y="17" width="20" height="5" fill="currentColor"/></svg>
+      {site.name}
+    </a>
+    <nav aria-label="Main">
+      <a href="/" aria-current={cur('/')}>Articles</a>
+      <a href="/series/kalam/" aria-current={cur('/series')}>The Kalam</a>
+      <a href="/about/" aria-current={cur('/about')}>About</a>
+    </nav>
+  </div>
+</header>

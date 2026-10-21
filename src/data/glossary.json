@@ -1,0 +1,110 @@
+{
+  "a-theory": {
+    "term": "A-theory and B-theory of time",
+    "definition": "The A-theory holds that past, present, and future are objectively different and that time really passes. The B-theory holds that all times are equally real and that 'now' is like 'here', a matter of perspective."
+  },
+  "antinomy": {
+    "term": "Antinomy",
+    "definition": "Kant's name for a pair of opposite conclusions that reason seems able to prove equally well when it overreaches, for example that the world had a beginning and that it did not."
+  },
+  "axiopistic": {
+    "term": "Axiopistic",
+    "definition": "Gary Phillips's name for an apologetic strategy that argues from standards believers and unbelievers share."
+  },
+  "bccf": {
+    "term": "Big Conjunctive Contingent Fact",
+    "definition": "The conjunction of all contingent truths, used in van Inwagen's argument against the full Principle of Sufficient Reason."
+  },
+  "brute fact": {
+    "term": "Brute fact",
+    "definition": "A fact with no explanation at all: not hidden, not merely unknown, but absent."
+  },
+  "contingent": {
+    "term": "Contingent",
+    "definition": "A contingent fact is one that could have been otherwise. A necessary fact could not have been otherwise."
+  },
+  "creatio ex nihilo": {
+    "term": "Creatio ex nihilo",
+    "definition": "Latin for 'creation out of nothing.' The doctrine that God brought the universe into being with no pre-existing material."
+  },
+  "defeasible reasoning": {
+    "term": "Defeasible reasoning",
+    "definition": "Reasoning to conclusions that hold by default but can be overturned by further information."
+  },
+  "efficient cause": {
+    "term": "Efficient cause",
+    "definition": "That which produces an effect. Michelangelo was the efficient cause of the David."
+  },
+  "eliminativism": {
+    "term": "Eliminativism about causation",
+    "definition": "The view that causation is not part of fundamental reality and that causal talk is only an approximation."
+  },
+  "entropy": {
+    "term": "Entropy",
+    "definition": "A measure of disorder. The second law of thermodynamics says it tends to increase, and many philosophers of physics think that increase is what gives time its direction."
+  },
+  "ex nihilo nihil fit": {
+    "term": "Ex nihilo nihil fit",
+    "definition": "Latin for 'out of nothing, nothing comes.' The principle that nothing begins to exist with no cause or explanation whatsoever."
+  },
+  "folk science": {
+    "term": "Folk science",
+    "definition": "Norton's term for a body of useful rules of thumb that work in everyday domains but have no place in fundamental theory."
+  },
+  "folk theory": {
+    "term": "Folk theory",
+    "definition": "A rule of thumb ordinary people live by, which experts expect to retire."
+  },
+  "hinge": {
+    "term": "Hinge proposition",
+    "definition": "In Wittgenstein's On Certainty, a proposition that frames inquiry rather than being tested by it."
+  },
+  "induction": {
+    "term": "Induction",
+    "definition": "Reasoning from observed cases to a general rule: every observed beginning has had a cause, so probably all beginnings do."
+  },
+  "material cause": {
+    "term": "Material cause",
+    "definition": "That out of which a thing is made. The block of Carrara marble was the material cause of the David."
+  },
+  "mentaculus": {
+    "term": "Mentaculus",
+    "definition": "David Albert and Barry Loewer's name for statistical-mechanical laws together with a postulate that the universe began in a low-entropy state, which fix the probabilities of everything after."
+  },
+  "metaphysical possibility": {
+    "term": "Metaphysical possibility",
+    "definition": "What could really be the case given the natures of things. Stricter than logical possibility, broader than physical possibility."
+  },
+  "modal collapse": {
+    "term": "Modal collapse",
+    "definition": "The result that every truth is a necessary truth, leaving no room for anything to have been otherwise."
+  },
+  "normalizable": {
+    "term": "Normalizable",
+    "definition": "A probability measure is normalizable if the probabilities can be made to add up to one. Spread evenly over an infinite space, they cannot."
+  },
+  "psr": {
+    "term": "Principle of Sufficient Reason (PSR)",
+    "definition": "Every contingent fact has an explanation for why it is true."
+  },
+  "reductio": {
+    "term": "Reductio ad absurdum",
+    "definition": "Refuting a claim by showing that it leads to something absurd."
+  },
+  "reify": {
+    "term": "Reify",
+    "definition": "From the Latin res, 'thing.' To treat an abstraction or an absence as though it were a thing."
+  },
+  "statistical mechanics": {
+    "term": "Statistical mechanics",
+    "definition": "The branch of physics that explains the behavior of large systems, like a gas, from the probabilities governing their microscopic parts."
+  },
+  "tautology": {
+    "term": "Tautology",
+    "definition": "In the Tractatus, a proposition that is true whatever the world is like. Logic consists of them, so it shows the structure of description and says nothing about which world exists."
+  },
+  "verification principle": {
+    "term": "Verification principle",
+    "definition": "The logical positivist claim that a statement is meaningful only if logic or experience can check it."
+  }
+}
