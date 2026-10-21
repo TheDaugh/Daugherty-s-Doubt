@@ -82,6 +82,14 @@ Modern philosophy has spent its energy on a different move. Take a belief nearly
 
 **9. Conceivability.** The ability to form a coherent mental picture of a state of affairs. Whether conceivability is good evidence of real possibility is one of the oldest disputes in philosophy.
 
+### Drill the terms
+
+Twelve short cases, one per sticking point above. A miss comes back later in the round.
+
+<link rel="stylesheet" href="/practice/term-drills.css">
+<div id="term-drills"></div>
+<script src="/practice/term-drills.js" defer></script>
+
 ---
 
 ## The case for premise 1
