@@ -273,6 +273,17 @@ Premise 2 comes next: [Can the Past Be Infinite?](/articles/kalam-premise-2-phil
 
 ---
 
+## The Crossing
+
+Play the other side of this article. A skeptic stands on the far bank, and every claim you make lays a plank. A claim that fails cracks its plank. Two cracks at once and you are in the river.
+
+<link rel="stylesheet" href="/practice/crossing.css">
+<div data-crossing></div>
+<script src="/practice/crossing-premise-1.js" defer></script>
+<script src="/practice/crossing.js" defer></script>
+
+---
+
 ## Works cited
 
 Entries marked † are awaiting a check against the primary text for page numbers and wording.
