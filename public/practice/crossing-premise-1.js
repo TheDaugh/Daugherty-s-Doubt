@@ -685,7 +685,7 @@
         },
         opts: [
           { k: 'ask', t: 'What would you need to see on that last point before it stopped bothering you? I would rather know than guess.', c: 'Asked what would move him', to: 'cl_g_a', s: 3 },
-          soft('You have granted a first cause, so you are one step from the God of the Bible, and everything else is a matter of filling in detail.', 'Called the rest “detail”', 'overreach', 'A first cause is the start of a long road. That it is personal, good, and the God of Israel are further claims, each with its own case, and none of them is a detail.', 'cl_g_b', 'Asking what would move him on the point that is still open.', { s: -1 }),
+          soft('You have granted a first cause, so you are one step from the Christian God, and everything else is a matter of filling in detail.', 'Called the rest “detail”', 'overreach', 'A first cause is the start of a long road. That it is personal, good, and the God of Israel are further claims, each with its own case, and none of them is a detail.', 'cl_g_b', 'Asking what would move him on the point that is still open.', { s: -1 }),
           soft('Then the real obstacle is not the argument. You would prefer not to believe, and that is what holds you at that last point.', 'Judged his motives', 'motive', 'Guessing at why he holds a doubt does not answer it, and he can say the same of you. The doubt he named still needs a reply.', 'cl_g_c', 'Asking what would move him on the point that is still open.', { s: -2 })
         ]
       },
@@ -698,7 +698,7 @@
         opts: [
           gv('A first cause is only the first step. Whether the universe began at all is the next question, and it deserves a slow look.', 'Named the next step honestly', 'cl_o_a', { s: 2 }),
           { k: 'ask', t: 'What would you want to know next? I would sooner follow your question than my own outline of the argument.', c: 'Asked what he wants to know', to: 'cl_o_b', s: 2 },
-          soft('Then you are nearly there. A first cause is the God of the Bible, and all that is left is to trust him.', 'Closed the gap for him', 'rushed', 'He was leaning in on his own, and you pulled. A first cause is not yet the God of the Bible, and trust is not the next step an argument can take for him.', 'cl_o_c', 'Naming the next step honestly and letting him take it.', { s: -2 })
+          soft('Then you are nearly there. A first cause is the Christian God, and all that is left is to trust him.', 'Closed the gap for him', 'rushed', 'He was leaning in on his own, and you pulled. A first cause is not yet the Christian God, and trust is not the next step an argument can take for him.', 'cl_o_c', 'Naming the next step honestly and letting him take it.', { s: -2 })
         ]
       },
       cl_o_a: { him: 'Then that is the next conversation.', opts: [leave('Good. I will bring the best case I have.', 0)] },
