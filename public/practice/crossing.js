@@ -158,7 +158,9 @@
     var L = LEVELS[lvl];
     st = { lvl: lvl, slots: L.slots, left: 0, right: L.slots - 1, o: 0, flags: {}, visited: {}, his: {}, mine: [], cracks: [], lastKinds: [],
       thread: null, beat: null, over: false, covered: [], commit: {}, fired: {}, pressedHoles: {}, falls: 0, repaired: 0, snap: null,
-      seed: Math.floor(Math.random() * 4294967295), thHold: {}, noAsk: false, transcript: [], met: false };
+      seed: Math.floor(Math.random() * 4294967295), thHold: {}, noAsk: false, transcript: [], met: false, closed: false, shown: {} };
+    var P = pick([{ s: -7, why: 'church' }, { s: -4, why: 'evil' }, { s: -1, why: 'curious' }]);
+    st.s = P.s; st.s0 = P.s; st.why = P.why;
     ui.level.textContent = L.name;
     ui.temper.innerHTML = 'He seems <em>' + temper() + '</em>';
     ui.stage.innerHTML = buildScene(L.slots); grab();
@@ -193,6 +195,13 @@
   }
 
   function temper() { return st.o >= 2 ? 'persuaded' : st.o >= 0 ? 'engaged' : st.o === -1 ? 'unconvinced' : 'frustrated'; }
+  /* the hidden scale: -10 hostility toward God ... 0 neutral ... +10 wanting to be a Christian.
+     Arguments move it more slowly the colder he starts. It is his position, never the player's score. */
+  function bandOf(s) { return s <= -5 ? 'h' : s >= 5 ? 'o' : 'g'; }
+  function gain(n) { if (n <= 0) return n; return n * (st.s <= -5 ? 0.5 : st.s <= -2 ? 0.75 : 1); }
+  var CAP = { church: -5, evil: 2, curious: 8 };   /* argument alone only goes so far with a person who is hurt or grieving */
+  function bump(n, bypass) { var v = st.s + gain(n); if (n > 0 && !bypass) v = Math.min(v, Math.max(st.s, CAP[st.why] == null ? 10 : CAP[st.why])); st.s = Math.max(-10, Math.min(C.MAXS || 10, v)); }
+  function sWords(s) { return s <= -7 ? 'hostile to God' : s <= -4 ? 'cold toward the whole subject' : s <= -1 ? 'guarded' : s <= 1 ? 'neutral' : s <= 4 ? 'curious' : s <= 7 ? 'drawn in' : 'wanting to know more'; }
   function temperKey() { return st.o >= 2 ? 'open' : st.o <= -2 ? 'hard' : 'mid'; }
 
   /* ================= log ================= */
@@ -208,6 +217,12 @@
   function logTag(cls, title, body) {
     st.transcript.push({ who: '[' + title + ']', text: body || '' });
     ui.log.appendChild(el('div', 'cr-tag ' + cls, '<strong>' + esc(title) + '</strong>' + (body ? '<p>' + esc(body) + '</p>' : ''))); scrollLog();
+  }
+  function sourceLink(id) {
+    var T = C.THREADS[id]; if (!T || T.hide || !T.anchor || st.shown[id]) return;
+    st.shown[id] = true;
+    var href = (C.ART || '/articles/kalam-premise-1/') + '#' + T.anchor;
+    ui.log.appendChild(el('div', 'cr-note cr-src', 'The argument behind this: <a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(T.title) + '</a>')); scrollLog();
   }
   function logNote(text) { ui.log.appendChild(el('div', 'cr-note', esc(text))); scrollLog(); }
 
@@ -225,16 +240,18 @@
   function enterThread(id, beatId) {
     snapshot('@' + id + ':' + (beatId || 'start'));
     st.visited[id] = true; st.thread = id; st.covered.push(id);
+    sourceLink(id);
     showBeat(beatId || 'start');
   }
 
   function go(to) {
     to = resolve(to);
     if (to === 'END') return junction();
+    if (to === 'FINISH') return finish('closed');
     if (to.charAt(0) === '@') {
       var parts = to.slice(1).split(':');
       if (st.visited[parts[0]] && !parts[1]) { logHim('We have already been over that.'); return junction(); }
-      if (st.thread !== parts[0]) { snapshot(to); st.visited[parts[0]] = true; st.thread = parts[0]; st.covered.push(parts[0]); }
+      if (st.thread !== parts[0]) { snapshot(to); st.visited[parts[0]] = true; st.thread = parts[0]; st.covered.push(parts[0]); sourceLink(parts[0]); }
       return showBeat(parts[1] || 'start');
     }
     showBeat(to);
@@ -244,7 +261,8 @@
     var T = C.THREADS[st.thread], b = T.beats[id];
     st.beat = id;
     var mood = st.o <= -2 ? 'point' : 'neutral';
-    if (b.him) logHim(b.him);
+    if (b.him) logHim(typeof b.him === 'function' ? b.him(ctxFor()) : b.him);
+    if (b.s) bump(b.s, true);
     if (b.his) st.his[b.his] = st.his[b.his] || { status: 'stated', plank: lay('r') };
     if (b.rev && st.his[b.rev]) {
       st.his[b.rev].status = 'revised';
@@ -309,19 +327,20 @@
     ui.opts.appendChild(box);
     if (hs.length) ui.opts.appendChild(el('p', 'cr-holes', 'One of your planks is cracked. Crack another before repairing it and you go through.'));
     var wrap = el('button', 'cr-linkbtn', 'Wrap up the conversation'); wrap.type = 'button';
-    wrap.addEventListener('click', function () { finish('wrap'); });
+    wrap.addEventListener('click', function () { toClose('wrap'); });
     ui.opts.appendChild(wrap);
   }
 
   function choose(o) {
     if (st.over || st.busy) return;
-    if (o.k === 'end') return finish('wrap');
+    if (o.k === 'end') return toClose('wrap');
     logYou(o.k, o.t);
     var pm = { ask: 'calm', press: 'speak', give: 'speak', grant: 'smile' }[o.k] || 'calm';
     var idx = -1, d = 0;
+    var ds = 0;
     if (o.p) {
       var cls = { hold: '', dent: 'cr-dented', crack: 'cr-cracked', shared: 'cr-granted' }[o.p];
-      if (!o.np || o.p === 'crack') idx = lay('l', cls);
+      if (!o.soft && (!o.np || o.p === 'crack')) idx = lay('l', cls);
       var entry = { c: o.c || o.t, p: o.p, n: o.n || '', f: o.f || '' };
       st.mine.push(entry);
       if (o.p === 'crack') {
@@ -330,39 +349,43 @@
         var fl = flawOf(o.f);
         logTag('cr-tag-crack', 'Cracked. ' + fl[0] + '.', (o.n || fl[1]));
         pm = 'wince';
-        d -= (o.f === 'doubledown' ? 2 : 1);
+        d -= (o.f === 'doubledown' ? 2 : 1); ds -= (o.f === 'doubledown' ? 3 : 2);
       } else if (o.p === 'dent' && !o.fix) {
         logTag('cr-tag-bullet', 'Narrowed.', o.n || 'You gave up some reach to keep the plank. Often a fair trade.');
       } else if (o.p === 'shared') {
-        st.lastWasShared = true; d += 1;
+        st.lastWasShared = true; d += 1; ds += 1.5;
       } else if (o.p === 'hold' && !o.np && !st.thHold[st.thread]) {
-        st.thHold[st.thread] = true; d += 1;
-      }
+        st.thHold[st.thread] = true; d += 1; ds += 1.5;
+      } else if (o.p === 'hold' && !o.np) { ds += 0.75; }
+      else if (o.p === 'dent') { ds += 0.5; }
     }
     (o.drop || []).forEach(function (k) { delete st.commit[k]; });
     [].concat(o.fix || []).forEach(function (fk) {
       var fc = st.commit[fk]; if (!fc) return;
       if (fc.cracked && fc.plank >= 0) { ui.planks[fc.plank].classList.remove('cr-cracked'); ui.planks[fc.plank].classList.add('cr-repaired'); }
-      if (fc.cracked) { st.repaired++; d += 1; logTag('cr-tag-rethink', 'Repaired.', 'You took back “' + bare(fc.label) + '.” Admitting a mistake costs less than standing on it.'); }
+      if (fc.cracked) { st.repaired++; d += 1; ds += 2; logTag('cr-tag-rethink', 'Repaired.', 'You took back “' + bare(fc.label) + '.” Admitting a mistake costs less than standing on it.'); }
       delete st.commit[fk];
     });
     var cms = o.cm ? [].concat(o.cm) : [];
     if (o.p === 'crack' && !cms.length) cms = [o.dd ? o.dd + '_dd' : 'crack' + st.cracks.length];
-    cms.forEach(function (k) { st.commit[k] = { label: o.c || o.t, plank: idx, cracked: o.p === 'crack', at: st.lastKinds.length + 1 }; });
+    if (!o.soft) cms.forEach(function (k) { st.commit[k] = { label: o.c || o.t, plank: idx, cracked: o.p === 'crack', at: st.lastKinds.length + 1 }; });
     root.setAttribute('data-pmood', pm);
     if (o.o != null) d += o.o;
+
     /* asking is free, but you cannot ask your way through: two questions in a row cost him patience */
     var prev = st.lastKinds[st.lastKinds.length - 1];
     if (o.k === 'ask' && prev === 'ask') { d -= 1; st.noAsk = true; logNote('Two questions in a row. He would like to hear a claim from you.'); }
     else if (o.k !== 'ask') st.noAsk = false;
     st.lastKinds.push(o.k);
     st.o = Math.max(-3, Math.min(2, st.o + d));
+    bump(ds);
+    if (o.s != null) bump(o.s, true);
     (o.set || []).forEach(function (f) { st.flags[f] = true; });
     ui.temper.innerHTML = 'He seems <em>' + temper() + '</em>';
     books();
     ui.opts.innerHTML = '';
     if (holes().length >= 2) return fall();
-    if (st.o <= -3) { logHim(C.LEAVE); return finish('left'); }
+    if (st.o <= -3 && !st.closed) { logHim(C.LEAVE); return finish('left'); }
     var to = o.to;
     var rule = nextRule();
     st.busy = true;
@@ -381,6 +404,7 @@
 
   /* he cross-examines you on two things you have said */
   function nextRule() {
+    if (st.closed) return null;
     var R = C.RULES || [];
     var now = st.lastKinds.length;
     if (st.lastX != null && now - st.lastX < 3) return null;
@@ -471,14 +495,15 @@
     }
     var his = C.HIS_ORDER.filter(threadOK).filter(function (id) { return C.THREADS[id].by === 'him'; });
     var sups = C.SUPPORTS.filter(function (s) { return lvlOK(s) && !st.visited[s.to.slice(1).split(':')[0]]; });
-    if (!his.length && !sups.length) return finish('done');
+    var nT = Object.keys(st.visited).filter(function (t) { return t !== 'open' && t !== 'close'; }).length;
+    if ((!his.length && !sups.length) || nT >= (st.lvl === 'A' ? 6 : 4)) return toClose('done');
     var opts = [];
     if (his.length) {
       var next = his[0], T = C.THREADS[next];
       logHim(pick(C.JUNCTION[temperKey()]) + ' ' + T.lead);
       opts.push({ k: 'ask', t: 'Go on. I would like to hear it.', o: 0, to: '@' + next });
     } else {
-      logHim('That is most of what I had. What else do you have for me?');
+      logHim('That is most of what I had.');
     }
     sups.slice(0, his.length ? 2 : 3).forEach(function (s) {
       var c = {}; for (var kk in s) c[kk] = s[kk];
@@ -489,6 +514,22 @@
     root.setAttribute('data-mood', st.o >= 1 ? 'nod' : 'neutral');
     st.curOpts = opts;
     renderOpts(opts);
+  }
+
+  function ctxFor() {
+    var revs = Object.keys(st.his).filter(function (k) { return st.his[k].status === 'revised' && C.BELIEFS[k].rev; }).map(function (k) { return C.BELIEFS[k].rev; });
+    var defs = Object.keys(st.his).filter(function (k) { return st.his[k].status === 'defended' && C.BELIEFS[k].open; }).map(function (k) { return C.BELIEFS[k].open; });
+    return { revs: revs, defs: defs, why: st.why, s: st.s, band: bandOf(st.s) };
+  }
+  /* the last exchange: what the argument did and did not do, said to the person */
+  function toClose() {
+    if (st.over) return;
+    if (st.closed) return finish('closed');
+    st.closed = true; st.busy = false; ui.opts.innerHTML = '';
+    st.thread = 'close'; st.visited.close = true;
+    var beat = { h: 'cl_h', g: 'cl_g', o: 'cl_o' }[bandOf(st.s)];
+    snapshot('@close:' + beat);
+    showBeat(beat);
   }
 
   /* ================= ledgers ================= */
@@ -553,7 +594,13 @@
     if (st.met) h += '<p>' + (st.cracks.length ? 'You met in the middle, though ' + st.cracks.length + (st.cracks.length === 1 ? ' of your planks is' : ' of your planks are') + ' cracked.' : 'You met in the middle on a sound bridge.') + '</p>';
     if (st.falls) h += '<p class="cr-endnote">Falls: ' + st.falls + '. Repairs: ' + st.repaired + '.</p>';
     else if (st.repaired) h += '<p class="cr-endnote">You repaired ' + st.repaired + (st.repaired === 1 ? ' crack' : ' cracks') + ' by taking things back.</p>';
-    h += '<p class="cr-endnote">He ended the conversation ' + temper() + '. Planks laid: ' + (st.left + (st.slots - 1 - st.right)) + ' of ' + st.slots + '.</p>';
+    h += '<p class="cr-endnote">Planks laid: ' + (st.left + (st.slots - 1 - st.right)) + ' of ' + st.slots + '.</p>';
+    var sn = Math.round(st.s), band = bandOf(st.s);
+    h += '<div class="cr-endsec cr-scale"><h4>Where he ended</h4><p>' + esc(C.CLOSING.where[band]) + '</p>' +
+      '<div class="cr-meter" role="img" aria-label="Stance ' + sn + ' on a scale from minus ten to plus ten"><span class="cr-pin" style="left:' + ((st.s + 10) * 5) + '%"></span></div>' +
+      '<p class="cr-endnote">He finished <strong>' + esc(sWords(st.s)) + '</strong> (' + (sn > 0 ? '+' : '') + sn + ' on a scale from −10, hostile to God, through 0, neutral, to +10, wanting to be a Christian). It is his position, not your grade. He began at ' + st.s0 + '.</p>' +
+      '<p class="cr-insight">' + esc(C.CLOSING.insight) + '</p>' +
+      (band !== 'h' ? '<p class="cr-next"><a href="' + esc(C.CLOSING.next.href) + '">' + esc(C.CLOSING.next.text) + '</a> <span class="cr-endnote">(to be continued)</span></p>' : '<p class="cr-endnote">' + esc(C.CLOSING.keep[band]) + '</p>') + '</div>';
     if (revs.length) {
       h += '<div class="cr-endsec"><h4>What he gave up</h4><ul class="cr-endlist">';
       revs.forEach(function (k) { h += '<li><em>Before:</em> ' + esc(C.BELIEFS[k].t) + '<br><em>Now:</em> ' + esc(C.BELIEFS[k].rev) + '</li>'; });
@@ -576,7 +623,7 @@
       });
       h += '</ul></div>';
     }
-    var cov = st.covered.filter(function (t, i, a) { return a.indexOf(t) === i && C.THREADS[t]; });
+    var cov = st.covered.filter(function (t, i, a) { return a.indexOf(t) === i && C.THREADS[t] && !C.THREADS[t].hide; });
     h += '<div class="cr-endsec"><h4>Ground you covered</h4><ul class="cr-endlist">';
     cov.forEach(function (t) {
       var T = C.THREADS[t], href = T.anchor ? '#' + T.anchor : (T.ref || '');
