@@ -53,9 +53,9 @@ a:hover { text-decoration-thickness: 2px; }
 .site-footer .wrap { padding-block: 1.6rem; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 
 /* home */
-.hero { padding-block: clamp(3rem, 9vw, 6.5rem) clamp(2rem, 5vw, 3.5rem); }
-.hero h1 { font-size: clamp(2.6rem, 8vw, 5.2rem); line-height: 1.02; letter-spacing: -0.02em; margin: 0; max-width: 14ch; font-weight: 700; }
-.hero p { font-size: clamp(1.15rem, 2.4vw, 1.4rem); max-width: 34rem; color: var(--muted); margin: 1.4rem 0 0; line-height: 1.5; }
+.hero { padding-block: clamp(1.5rem, 4vw, 2.5rem) clamp(1rem, 2.5vw, 1.5rem); }
+.hero h1 { font-size: clamp(1.8rem, 4.5vw, 2.6rem); line-height: 1.1; letter-spacing: -0.015em; margin: 0; max-width: 30ch; font-weight: 700; }
+.hero p { font-size: clamp(1rem, 1.8vw, 1.15rem); max-width: 38rem; color: var(--muted); margin: 0.6rem 0 0; line-height: 1.5; }
 .courses { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--rule); }
 .course { display: grid; grid-template-columns: 1fr; gap: 0.25rem; padding: 1.4rem 0; border-bottom: 1px solid var(--rule); }
 .course h3 { margin: 0; font-size: 1.3rem; line-height: 1.3; }
@@ -65,7 +65,7 @@ a:hover { text-decoration-thickness: 2px; }
 .course .tag { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); }
 .section-title { font-size: 1.05rem; font-family: var(--sans); font-weight: 600; margin: 3rem 0 0.9rem; }
 .series-card { display: grid; gap: 1.2rem; grid-template-columns: 1fr; padding: 1.6rem; background: var(--surface); border: 1px solid var(--rule); }
-@media (min-width: 52rem) { .series-card { grid-template-columns: 1.1fr 1fr; align-items: center; padding: 2rem; gap: 2.5rem; } }
+@media (min-width: 52rem) { .series-card { grid-template-columns: 1.1fr 1fr; align-items: center; padding: 1.4rem 1.6rem; gap: 2rem; } }
 .series-card h2 { margin: 0 0 0.5rem; font-size: 1.8rem; line-height: 1.15; }
 .series-card p { margin: 0; color: var(--muted); font-size: 1.02rem; line-height: 1.55; }
 

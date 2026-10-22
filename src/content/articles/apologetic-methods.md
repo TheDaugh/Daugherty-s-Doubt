@@ -5,7 +5,6 @@ series: "Start Here"
 tier: hub
 published: 2026-10-04
 updated: 2026-10-22
-status: DRAFT v6 — citation checks (†) outstanding
 glossaryExtra: ["apologetics", "presupposition", "noetic effects of sin", "autopistic", "axiopistic", "magisterial and ministerial reason", "common ground", "cumulative case", "natural theology", "prevenient grace", "Gethsemane epistemology", "pragmatism", "properly basic", "defeater", "common grace", "transcendental argument", "natural signs", "suppositional", "inferential", "subjectivist", "relational", "cultural", "prudential"]
 ---
 

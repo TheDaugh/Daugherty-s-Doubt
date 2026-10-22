@@ -81,7 +81,7 @@
   },
   "folk theory": {
     "term": "Folk theory",
-    "definition": "A rule of thumb ordinary people live by, which experts expect to retire."
+    "definition": "A rule of thumb ordinary people live by, such as \"heavy things fall faster.\" Calling a belief a folk theory suggests that experts expect to replace it, which is sometimes right and needs its own argument each time."
   },
   "gethsemane epistemology": {
     "term": "Gethsemane epistemology",
@@ -165,7 +165,7 @@
   },
   "reify": {
     "term": "Reify",
-    "definition": "From the Latin res, 'thing.' To treat an abstraction or an absence as though it were a thing."
+    "definition": "From the Latin res, \"thing.\" To treat an abstraction or an absence as though it were a thing, the way a child speaks of \"the dark\" as a creature in the closet."
   },
   "relational": {
     "term": "Relational apologetics",
@@ -193,6 +193,6 @@
   },
   "verification principle": {
     "term": "Verification principle",
-    "definition": "The logical positivist claim that a statement is meaningful only if logic or experience can check it."
+    "definition": "The logical positivists' claim that a statement is meaningful only if it is true by logic or checkable by experience. It is itself neither, which is the standard objection to it."
   }
 }
