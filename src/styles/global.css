@@ -83,6 +83,7 @@ a:hover { text-decoration-thickness: 2px; }
 /* article */
 .article-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; padding-block: 2.5rem 0; }
 @media (min-width: 66rem) { .article-grid { grid-template-columns: 15rem minmax(0, var(--measure)); gap: 4rem; justify-content: center; } }
+@media (min-width: 66rem) { .article-grid.no-side { grid-template-columns: minmax(0, var(--measure)); } }
 .side { font-family: var(--sans); font-size: 0.9rem; }
 @media (min-width: 66rem) { .side { position: sticky; top: 1.5rem; align-self: start; } }
 .side h2 { font-size: 0.95rem; margin: 0 0 0.7rem; }

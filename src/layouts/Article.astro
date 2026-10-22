@@ -13,7 +13,7 @@ const meta = data.seriesSlug ? seriesMeta[data.seriesSlug] : undefined;
 const isDraft = data.status?.toUpperCase().includes('DRAFT');
 ---
 <Base title={data.title} description={data.subtitle}>
-  <div class="wrap article-grid">
+  <div class:list={["wrap", "article-grid", !(data.seriesSlug && meta) && "no-side"]}>
     {data.seriesSlug && meta && (
       <aside class="side" aria-label="Series">
         <h2><a href={`/series/${data.seriesSlug}/`}>{meta.title}</a></h2>
@@ -22,7 +22,7 @@ const isDraft = data.status?.toUpperCase().includes('DRAFT');
     )}
     <article>
       <header class="article-head">
-        {data.series && <p class="crumb"><a href={`/series/${data.seriesSlug}/`}>{data.series}</a></p>}
+        {data.series && <p class="crumb">{data.seriesSlug ? <a href={`/series/${data.seriesSlug}/`}>{data.series}</a> : data.series}</p>}
         <h1>{data.title}</h1>
         {data.subtitle && <p class="sub">{data.subtitle}</p>}
       </header>
