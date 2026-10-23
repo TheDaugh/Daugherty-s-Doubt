@@ -31,6 +31,8 @@
     equivocate: ['Equivocation', 'A word changed its meaning in the middle of the argument.'],
     strawman: ['Strawman', 'You answered a weaker view than the one he holds.'],
     inconsistent: ['Inconsistent', 'This contradicts something you said earlier.'],
+    rushed: ['Answered before listening', 'He told you what was really in the way, and you moved to your own answer before he had finished.'],
+    motive: ['Judged his motives', 'You answered his doubt by guessing why he holds it, which does not reply to the doubt.'],
     doubledown: ['Doubled down', 'You stood on a claim you had been shown to be wrong about.']
   };
 
@@ -631,6 +633,80 @@
     }
   };
 }());
+/* The ending: what the argument did and did not do, said to the person.
+ * Band is chosen by the hidden stance scale: h (hostile or hurt), g (guarded to curious), o (open). */
+(function () {
+  'use strict';
+  var C = window.CROSSING, H = C.__helpers;
+  function low(s) { s = String(s).replace(/[.]$/, ''); return s.charAt(0).toLowerCase() + s.slice(1); }
+  function gv(t, c, to, x) { var o = { k: 'give', p: 'hold', np: true, t: t, c: c, to: to }; for (var k in x) o[k] = x[k]; return o; }
+  function soft(t, c, f, n, to, b, x) { var o = { k: 'give', p: 'crack', soft: true, t: t, c: c, f: f, n: n, b: b, to: to }; for (var k in x) o[k] = x[k]; return o; }
+  function leave(t, s) { return { k: 'grant', t: t, to: 'FINISH', s: s || 0 }; }
+
+  C.CLOSING = {
+    where: {
+      h: 'He is still far from this, and the argument is not the reason. What stands between you is something an argument was never going to move.',
+      g: 'He is nearer to the argument than to its conclusion. The premise costs him something to deny now, and that is as far as it reaches.',
+      o: 'He is leaning in. The argument cleared away one of his reasons for saying no, and he wants to see what is on the other side of it.'
+    },
+    insight: 'Winning the points is not winning the person. A good argument removes a reason for saying no; it cannot supply a reason for saying yes, and a skeptic who grants everything just to be done with you has not moved at all. The aim is to be someone worth talking to while he decides.',
+    keep: {
+      h: 'If he told you what was really in the way, you were right to stop arguing. The argument will keep until he asks for it.',
+      g: 'Nothing is settled, and that is an honest place to stop.'
+    },
+    next: { text: 'Premise 2: did the universe begin at all?', href: '/series/kalam/' }
+  };
+
+  C.MAXS = 6;   /* one premise of one argument does not carry anyone to +10 */
+  var T = C.THREADS;
+  T.close = {
+    title: 'The close', section: 'Ending', by: 'sys', hide: true, beats: {
+      cl_h: {
+        him: function (x) {
+          if (x.why === 'church') return 'I will be straight with you. I could grant every one of these points and it would not touch me. What I carry is not philosophy. It is what I watched people do in the name of God, and who they were to me afterward.';
+          if (x.why === 'evil') return 'The first cause was never my trouble. It is the suffering. If there is a mind behind all this, then it watched what I have watched, and I cannot get past that with an argument about beginnings.';
+          return 'I think I stopped arguing a while ago. I have been waiting to feel heard, and I am not sure I am the one you have been talking to.';
+        },
+        opts: [
+          { k: 'ask', t: 'That sounds like it matters more than anything we covered tonight. Would you tell me about it, whenever you are ready?', c: 'Asked about the real obstacle', to: 'cl_h_a', s: 4 },
+          soft('I am sorry that happened. The answer to that is Jesus, who was angrier about hypocrisy than you are. May I tell you who he is?', 'Moved to the gospel as he finished speaking', 'rushed', 'Jesus may be the answer, but he had just handed you something painful and you replied with a pitch before asking anything. A person in that spot hears that your answer matters more than his story.', 'cl_h_b', 'Asking about it, and listening before you answer.', { s: -1 }),
+          soft('What people do has no bearing on whether the premise is true, and the premise stands whatever Christians have done. Shall we finish the argument?', 'Returned to the argument', 'neighbor', 'You were right about the logic and wrong about the moment. He said what was in the way, and you answered a question he was not asking.', 'cl_h_c', 'Asking about it, and listening before you answer.', { s: -1 })
+        ]
+      },
+      cl_h_a: { him: 'Thank you for asking. It is longer than tonight allows. But it was hard to say, and you are the first person in a while who asked instead of answering.', opts: [leave('I am glad you told me. Whenever you want to keep talking, about this or about the argument, I would like to.', 2)] },
+      cl_h_b: { him: 'I did not come for a sermon. I came because I thought someone might actually talk with me.', opts: [leave('I am sorry. I should have listened first.', 1)] },
+      cl_h_c: { him: 'Of course the premise does not depend on them. That is not why I said it.', opts: [leave('You are right. I should have asked about it first.', 1)] },
+
+      cl_g: {
+        him: function (x) {
+          var give = x.revs.length ? 'Here is what I will give you: ' + x.revs.slice(0, 2).join(' ') : 'I cannot say you moved me much.';
+          var hold = x.defs.length ? ' And here is what I still cannot follow: I do not know ' + low(x.defs[0]) + (x.defs[1] ? ', or ' + low(x.defs[1]) : '') + '.' : ' I do not have one point I am holding on to, which surprises me.';
+          return 'Let me say where I am, which is fairer than “I am not convinced.” ' + give + hold;
+        },
+        opts: [
+          { k: 'ask', t: 'What would you need to see on that last point before it stopped bothering you? I would rather know than guess.', c: 'Asked what would move him', to: 'cl_g_a', s: 3 },
+          soft('You have granted a first cause, so you are one step from the Christian God, and everything else is a matter of filling in detail.', 'Called the rest “detail”', 'overreach', 'A first cause is the start of a long road. That it is personal, good, and the God of Israel are further claims, each with its own case, and none of them is a detail.', 'cl_g_b', 'Asking what would move him on the point that is still open.', { s: -1 }),
+          soft('Then the real obstacle is not the argument. You would prefer not to believe, and that is what holds you at that last point.', 'Judged his motives', 'motive', 'Guessing at why he holds a doubt does not answer it, and he can say the same of you. The doubt he named still needs a reply.', 'cl_g_c', 'Asking what would move him on the point that is still open.', { s: -2 })
+        ]
+      },
+      cl_g_a: { him: 'Honestly, a reason that does not just restate the premise. I do not know that one exists. I would rather keep looking than pretend I have decided.', opts: [leave('That is a fair place to leave it. I would like to keep looking with you.', 1)] },
+      cl_g_b: { him: 'That is a long walk to call a detail. Each of those steps would need a case of its own, and I have not seen them.', opts: [leave('You are right. Each of those deserves its own conversation.', 1)] },
+      cl_g_c: { him: 'Maybe. But saying so does not answer the point, and I would rather you answered it.', opts: [leave('Fair. The point deserves an answer, not a diagnosis.', 1)] },
+
+      cl_o: {
+        him: 'I did not expect to say this, but I would like to know where it goes. A first cause is not yet a God, and certainly not the one your church worships. I would still like to keep going.',
+        opts: [
+          gv('A first cause is only the first step. Whether the universe began at all is the next question, and it deserves a slow look.', 'Named the next step honestly', 'cl_o_a', { s: 2 }),
+          { k: 'ask', t: 'What would you want to know next? I would sooner follow your question than my own outline of the argument.', c: 'Asked what he wants to know', to: 'cl_o_b', s: 2 },
+          soft('Then you are nearly there. A first cause is the Christian God, and all that is left is to trust him.', 'Closed the gap for him', 'rushed', 'He was leaning in on his own, and you pulled. A first cause is not yet the Christian God, and trust is not the next step an argument can take for him.', 'cl_o_c', 'Naming the next step honestly and letting him take it.', { s: -2 })
+        ]
+      },
+      cl_o_a: { him: 'Then that is the next conversation.', opts: [leave('Good. I will bring the best case I have.', 0)] },
+      cl_o_b: { him: 'Whether it actually began. Everything seems to hang on that.', opts: [leave('It does. Let us start there.', 0)] },
+      cl_o_c: { him: 'That is the part I cannot see yet. I would have to follow it step by step, not be pulled across.', opts: [leave('You are right. One step at a time.', 0)] }
+    }
+  };
+}());
 (function () {
   'use strict';
   var C = window.CROSSING, H = C.__helpers;
@@ -721,9 +797,9 @@
   C.HIS_ORDER = ['hume', 'exception', 'morriston', 'quantum', 'brute', 'nothing', 'linford', 'parity', 'kant', 'before', 'vaninwagen'];
 
   C.JUNCTION = {
-    open: ['This is a useful exchange. May I raise something else?', 'I am enjoying this. There is another matter I would like to press.'],
-    mid: ['Let me come at it from another side.', 'Perhaps we can try a different angle.'],
-    hard: ['All right. Here is another difficulty.', 'Then let me try a different objection.']
+    open: ['That moved me on the last point. What I still cannot square is this.', 'You gave a real answer there. The one place I am still stuck is this.'],
+    mid: ['I think we are circling, so let me name the thing that actually bothers me.', 'Let me say where I still feel the pull the other way.'],
+    hard: ['I am not persuaded, and I would rather say why than keep saying so.', 'Then let me be plain about the difficulty I cannot get past.']
   };
   C.LEAVE = 'I think I should stop for tonight. You have given me plenty to think about.';
   

@@ -53,6 +53,7 @@ const checkTo = (to, T, where) => {
       targets.add(tid);
       if (!C.THREADS[tid]) err(where + ': unknown thread ' + t);
       else if (bid && !C.THREADS[tid].beats[bid]) err(where + ': unknown beat ' + t);
+    } else if (t === 'FINISH' || t === 'END') {
     } else if (!T || !T.beats[t]) err(where + ': unknown beat "' + t + '"');
   }
 };
@@ -66,13 +67,13 @@ for (const { id, tid, b, opts } of beats) {
 }
 C.SUPPORTS.forEach((o, i) => checkTo(o.to, null, 'SUPPORTS[' + i + ']'));
 for (const tid of Object.keys(C.THREADS)) {
-  if (tid !== 'open' && !targets.has(tid) && !C.HIS_ORDER.includes(tid)) warn('thread "' + tid + '" is never targeted or listed in HIS_ORDER');
+  if (tid !== 'open' && !C.THREADS[tid].hide && !targets.has(tid) && !C.HIS_ORDER.includes(tid)) warn('thread "' + tid + '" is never targeted or listed in HIS_ORDER');
 }
 C.HIS_ORDER.forEach((t) => { if (!C.THREADS[t]) err('HIS_ORDER has unknown thread ' + t); });
 Object.entries(C.THREADS).forEach(([tid, T]) => {
   if (C.HIS_ORDER.includes(tid) && T.by !== 'him') warn(tid + ' is in HIS_ORDER but has no by:"him"');
   if (T.by === 'him' && !T.lead) err(tid + ': by:"him" thread needs a lead line');
-  if (!T.anchor && !T.ref && tid !== 'open') warn(tid + ': no anchor or ref for the debrief link');
+  if (!T.anchor && !T.ref && tid !== 'open' && !T.hide) warn(tid + ': no anchor or ref for the debrief link');
 });
 
 /* ---------- commitments, fixes, rules ---------- */
@@ -93,7 +94,7 @@ for (const { o, where } of allOpts) {
     if (!o.f || !C.FLAWS[o.f]) err(where + ': crack without a known flaw type (f)');
     if (!o.n || words(o.n) < 8) err(where + ': crack needs an explanation (n) of at least 8 words');
     if (!o.c) err(where + ': crack needs a ledger line (c)');
-  } else if (o.k !== 'ask' && o.k !== 'end' && !o.c) warn(where + ': claim without a ledger line (c)');
+  } else if (o.k !== 'ask' && o.k !== 'end' && !o.c && o.p) warn(where + ': claim without a ledger line (c)');
 }
 
 /* ---------- craft: length, position, labels, lexicon ---------- */
