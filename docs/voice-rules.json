@@ -1,0 +1,26 @@
+{
+  "_about": "Phrases that mark AI-chat or essay-machine voice. Ian edits this file; scripts/check-voice.mjs reads it. 'error' fails the check, 'warn' only reports. Add a phrase the moment you catch one in a draft. To keep a phrase on one line on purpose, put <!-- voice-ok --> at the end of that line.",
+  "phrases": [
+    { "match": "the point is real", "level": "error", "why": "Ian named it: AI-chat vocabulary" },
+    { "match": "this is where this comes in", "level": "error", "why": "Ian named it: AI-chat vocabulary" },
+    { "match": "the reply is", "level": "error", "why": "Ian named it: self-talk phrasing; say whose reply, or just state it" },
+    { "match": "it'?s worth noting", "level": "error", "why": "throat-clearing" },
+    { "match": "it is worth noting", "level": "error", "why": "throat-clearing" },
+    { "match": "what this reveals is", "level": "error", "why": "throat-clearing" },
+    { "match": "it might be argued", "level": "error", "why": "hedging verb; state the claim" },
+    { "match": "some would say", "level": "error", "why": "hedging verb; name the person or state the claim" },
+    { "match": "this section will", "level": "error", "why": "architectural narration" },
+    { "match": "having established", "level": "error", "why": "architectural narration" },
+    { "match": "to illustrate this, consider", "level": "error", "why": "ceremony before an illustration; let it arrive as the next clause" },
+    { "match": "this shows that", "level": "warn", "why": "throat-clearing; state what follows" },
+    { "match": "it'?s important to (note|remember|understand)", "level": "warn", "why": "throat-clearing" },
+    { "match": "let'?s unpack", "level": "warn", "why": "chat voice" },
+    { "match": "here'?s the thing", "level": "warn", "why": "chat voice" },
+    { "match": "\\bdelve", "level": "warn", "why": "AI-chat vocabulary" },
+    { "match": "dive into", "level": "warn", "why": "AI-chat vocabulary" },
+    { "match": "in conclusion", "level": "warn", "why": "stock essay voice" },
+    { "match": "game[- ]?changer", "level": "warn", "why": "blog voice" },
+    { "match": "\\bnot just [^.;]{1,60}, but\\b", "level": "warn", "why": "stock contrast frame" },
+    { "match": "\\bfor example,", "level": "warn", "why": "usually ceremony; let the illustration arrive as the next clause" }
+  ]
+}
