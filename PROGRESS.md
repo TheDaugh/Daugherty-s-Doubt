@@ -19,6 +19,8 @@ It finds named phrases and reports sentence rhythm. A "bloggy" draft with none o
 
 ### Needs Ian
 
+Ian is drafting the exemplar and the `apologetic-methods.md:156` fix in a Claude artifact; both arrive later (2026-10-26). Until they do, there is no exemplar and that sentence stays as published.
+
 1. Choose one exemplar passage (150 words or fewer) for `docs/VOICE.md`.
 2. Add any AI-chat phrase you have caught that the list misses, to `docs/voice-rules.json`.
 3. Decide the `apologetic-methods.md:156` sentence.
