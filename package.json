@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "check": "node scripts/check-voice.mjs && node notes/crossing-lint.mjs public/practice/crossing-premise-1.js",
+    "check:voice": "node scripts/check-voice.mjs"
   },
   "keywords": [],
   "author": "",
